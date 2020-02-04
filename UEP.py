@@ -23,9 +23,11 @@ def main(cpus=27, skempi=False, scan=""):
     if skempi and scan == "":
         ### --- FILTERING SKEMPI --- ###
         training_data = load(model_trained, compression="lzma", set_default_extension=False)
-        skempi_processed_data_single, skempi_processed_data_multiple = read_skempi.process_skempi_data(skempi_path)
+        skempi_processed_data_single, skempi_processed_data_multiple, skempi_processed_data_single_no_renamed = read_skempi.process_skempi_data(skempi_path)
         data = make_models.export_mutations(skempi_processed_data_single)
+        data_no_renamed = make_models.export_mutations(skempi_processed_data_single_no_renamed)
         
+        print(data_no_renamed)
         ### --- MAKE 3D STRUCTURES USING FOLDX --- ###
         #make_models.run_multiprocessing_models(skempi_uep_predictions)
         
