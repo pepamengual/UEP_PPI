@@ -15,7 +15,7 @@ def process_data(input_data):
     return data
 
 def runner(pdb, target_chain):
-    driver = webdriver.Chrome(executable_path="/Users/pep/beatmusic/chromedriver")
+    driver = webdriver.Chrome(executable_path="/home/pepamengual/UEP_PPI/skempi/beatmusic/chromedriver")
     website = "http://babylone.ulb.ac.be/beatmusic/query.php"
     driver.get(website)
     
