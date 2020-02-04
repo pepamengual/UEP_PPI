@@ -1,0 +1,951 @@
+3sf4.pdb [D+ABCEF] DEF  19    P A  DDG_bind=   1.60 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P C  DDG_bind=   0.39 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P D  DDG_bind=   1.40 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P E  DDG_bind=   1.66 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P F  DDG_bind=  -0.70 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P G  DDG_bind=   2.48 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P H  DDG_bind=  -0.23 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P I  DDG_bind=  -0.70 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P K  DDG_bind=   1.99 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P L  DDG_bind=  -0.87 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P M  DDG_bind=  -1.32 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P N  DDG_bind=   1.08 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P Q  DDG_bind=   0.72 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P R  DDG_bind=   1.07 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P S  DDG_bind=   1.85 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P T  DDG_bind=   1.27 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P V  DDG_bind=  -0.01 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P W  DDG_bind=  -2.18 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  19    P Y  DDG_bind=  -1.43 kcal/mol   Interface= yes   Acc= [ABCEF] 39.51 [ABCDEF] 27.93 
+3sf4.pdb [D+ABCEF] DEF  20    L A  DDG_bind=   2.22 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L C  DDG_bind=   1.79 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L D  DDG_bind=   2.08 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L E  DDG_bind=   1.58 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L F  DDG_bind=   0.93 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L G  DDG_bind=   2.95 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L H  DDG_bind=   1.28 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L I  DDG_bind=   0.73 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L K  DDG_bind=   1.71 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L M  DDG_bind=   0.65 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L N  DDG_bind=   1.88 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L P  DDG_bind=   2.56 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L Q  DDG_bind=   1.38 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L R  DDG_bind=   1.21 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L S  DDG_bind=   2.28 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L T  DDG_bind=   1.57 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L V  DDG_bind=   1.03 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L W  DDG_bind=   0.49 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  20    L Y  DDG_bind=   0.69 kcal/mol   Interface= no    Acc= [ABCEF] 18.64 [ABCDEF] 18.64 
+3sf4.pdb [D+ABCEF] DEF  21    G A  DDG_bind=   0.27 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G C  DDG_bind=   0.14 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G D  DDG_bind=   1.06 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G E  DDG_bind=   0.99 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G F  DDG_bind=   0.43 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G H  DDG_bind=   0.40 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G I  DDG_bind=   0.49 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G K  DDG_bind=   0.61 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G L  DDG_bind=   0.57 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G M  DDG_bind=   0.54 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G N  DDG_bind=   0.86 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G P  DDG_bind=   1.13 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G Q  DDG_bind=   0.83 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G R  DDG_bind=   0.73 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G S  DDG_bind=   0.56 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G T  DDG_bind=   0.50 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G V  DDG_bind=  -0.00 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G W  DDG_bind=   0.29 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  21    G Y  DDG_bind=   0.41 kcal/mol   Interface= no    Acc= [ABCEF] 12.49 [ABCDEF] 12.49 
+3sf4.pdb [D+ABCEF] DEF  22    S A  DDG_bind=   0.40 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S C  DDG_bind=   0.29 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S D  DDG_bind=   0.63 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S E  DDG_bind=   0.62 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S F  DDG_bind=  -0.15 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S G  DDG_bind=   0.92 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S H  DDG_bind=   0.18 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S I  DDG_bind=   0.26 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S K  DDG_bind=   0.57 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S L  DDG_bind=   0.08 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S M  DDG_bind=   0.21 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S N  DDG_bind=   0.71 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S P  DDG_bind=  -0.31 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S Q  DDG_bind=   0.46 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S R  DDG_bind=   0.30 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S T  DDG_bind=   0.50 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S V  DDG_bind=   0.31 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S W  DDG_bind=  -0.14 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  22    S Y  DDG_bind=   0.16 kcal/mol   Interface= no    Acc= [ABCEF] 30.05 [ABCDEF] 30.05 
+3sf4.pdb [D+ABCEF] DEF  23    M A  DDG_bind=   1.72 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M C  DDG_bind=   1.41 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M D  DDG_bind=   2.02 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M E  DDG_bind=   2.31 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M F  DDG_bind=   0.01 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M G  DDG_bind=   1.88 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M H  DDG_bind=   0.88 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M I  DDG_bind=   1.03 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M K  DDG_bind=   1.50 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M L  DDG_bind=   0.34 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M N  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M P  DDG_bind=   1.93 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M Q  DDG_bind=   1.26 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M R  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M S  DDG_bind=   1.83 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M T  DDG_bind=   1.20 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M V  DDG_bind=   1.02 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M W  DDG_bind=  -0.26 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  23    M Y  DDG_bind=  -0.03 kcal/mol   Interface= yes   Acc= [ABCEF] 35.89 [ABCDEF] 27.29 
+3sf4.pdb [D+ABCEF] DEF  24    Q A  DDG_bind=   0.43 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q C  DDG_bind=   0.25 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q D  DDG_bind=   0.48 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q E  DDG_bind=   0.38 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q F  DDG_bind=   0.11 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q G  DDG_bind=   0.77 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q H  DDG_bind=  -0.30 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q I  DDG_bind=   0.02 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q K  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q L  DDG_bind=   0.06 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q M  DDG_bind=  -0.00 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q N  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q P  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q R  DDG_bind=   0.31 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q S  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q T  DDG_bind=   0.22 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q V  DDG_bind=   0.06 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q W  DDG_bind=   0.54 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  24    Q Y  DDG_bind=   0.46 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 35.46 [ABCDEF] 43.13 
+3sf4.pdb [D+ABCEF] DEF  25    V A  DDG_bind=  -0.38 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V C  DDG_bind=  -0.10 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V D  DDG_bind=  -1.09 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V E  DDG_bind=  -0.09 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V F  DDG_bind=  -0.21 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V G  DDG_bind=   0.28 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V H  DDG_bind=  -0.69 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V I  DDG_bind=   0.19 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V K  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V L  DDG_bind=  -0.40 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V M  DDG_bind=  -0.58 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V N  DDG_bind=  -0.93 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V P  DDG_bind=  -0.47 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V Q  DDG_bind=  -0.41 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V R  DDG_bind=  -0.14 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V S  DDG_bind=  -0.60 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V T  DDG_bind=  -0.58 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V W  DDG_bind=  -0.27 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  25    V Y  DDG_bind=  -0.03 kcal/mol   Interface= yes   Acc= [D] 65.05 [ABCEF] 31.91 [ABCDEF] 36.27 
+3sf4.pdb [D+ABCEF] DEF  26    D A  DDG_bind=   0.72 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D C  DDG_bind=   1.10 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D E  DDG_bind=   0.20 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D F  DDG_bind=   0.51 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D G  DDG_bind=   0.77 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D H  DDG_bind=   0.10 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D I  DDG_bind=   0.81 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D K  DDG_bind=   0.28 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D L  DDG_bind=   0.47 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D M  DDG_bind=   0.50 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D N  DDG_bind=   0.38 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D P  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D Q  DDG_bind=   0.07 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D R  DDG_bind=   0.16 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D S  DDG_bind=   0.47 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D T  DDG_bind=  -0.02 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D V  DDG_bind=   0.61 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D W  DDG_bind=   0.43 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  26    D Y  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 78.76 [ABCEF] 34.34 [ABCDEF] 35.71 
+3sf4.pdb [D+ABCEF] DEF  27    S A  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S C  DDG_bind=   0.39 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S D  DDG_bind=   0.91 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S E  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S F  DDG_bind=  -0.29 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S G  DDG_bind=   1.25 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S H  DDG_bind=   0.17 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S I  DDG_bind=   0.58 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S K  DDG_bind=   1.75 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S L  DDG_bind=   0.27 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S M  DDG_bind=   0.07 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S N  DDG_bind=   1.29 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S P  DDG_bind=   1.30 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S Q  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S R  DDG_bind=   0.84 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S T  DDG_bind=   0.63 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S V  DDG_bind=   0.81 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S W  DDG_bind=  -0.96 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  27    S Y  DDG_bind=  -0.59 kcal/mol   Interface= yes   Acc= [D] 63.17 [ABCEF]  2.70 [ABCDEF]  2.82 
+3sf4.pdb [D+ABCEF] DEF  28    V A  DDG_bind=   2.62 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V C  DDG_bind=   1.60 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V D  DDG_bind=   2.97 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V E  DDG_bind=   2.39 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V F  DDG_bind=   0.72 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V G  DDG_bind=   3.76 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V H  DDG_bind=   1.66 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V I  DDG_bind=  -0.08 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V K  DDG_bind=   2.29 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V L  DDG_bind=   0.44 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V M  DDG_bind=   0.71 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V N  DDG_bind=   2.60 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V P  DDG_bind=   2.53 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V Q  DDG_bind=   2.01 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V R  DDG_bind=   1.92 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V S  DDG_bind=   3.27 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V T  DDG_bind=   1.82 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V W  DDG_bind=   0.34 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  28    V Y  DDG_bind=   0.45 kcal/mol   Interface= yes   Acc= [D] 43.77 [ABCEF]  0.91 [ABCDEF]  2.03 
+3sf4.pdb [D+ABCEF] DEF  29    Q A  DDG_bind=   0.63 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q C  DDG_bind=   1.78 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q D  DDG_bind=   0.66 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q E  DDG_bind=   0.21 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q F  DDG_bind=   1.77 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q G  DDG_bind=   1.53 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q H  DDG_bind=   0.78 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q I  DDG_bind=   1.39 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q K  DDG_bind=  -0.02 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q L  DDG_bind=   0.95 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q M  DDG_bind=   0.75 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q N  DDG_bind=   0.64 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q P  DDG_bind=   1.19 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q R  DDG_bind=   0.22 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q S  DDG_bind=   1.18 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q T  DDG_bind=   1.06 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q V  DDG_bind=   1.52 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q W  DDG_bind=   1.85 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  29    Q Y  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 50.72 [ABCEF] 41.41 [ABCDEF] 44.17 
+3sf4.pdb [D+ABCEF] DEF  30    R A  DDG_bind=   1.10 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R C  DDG_bind=   2.36 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R D  DDG_bind=   0.95 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R E  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R F  DDG_bind=   0.64 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R G  DDG_bind=   2.39 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R H  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R I  DDG_bind=   1.26 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R K  DDG_bind=   0.19 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R L  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R M  DDG_bind=   0.78 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R N  DDG_bind=   1.00 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R P  DDG_bind=   2.10 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R Q  DDG_bind=   0.22 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R S  DDG_bind=   1.54 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R T  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R V  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R W  DDG_bind=   0.34 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  30    R Y  DDG_bind=   0.74 kcal/mol   Interface= yes   Acc= [D] 62.11 [ABCEF] 33.20 [ABCDEF] 33.20 
+3sf4.pdb [D+ABCEF] DEF  31    W A  DDG_bind=   4.99 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W C  DDG_bind=   4.22 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W D  DDG_bind=   4.73 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W E  DDG_bind=   3.92 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W F  DDG_bind=   0.97 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W G  DDG_bind=   5.45 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W H  DDG_bind=   3.23 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W I  DDG_bind=   2.85 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W K  DDG_bind=   4.12 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W L  DDG_bind=   2.22 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W M  DDG_bind=   2.17 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W N  DDG_bind=   4.80 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W P  DDG_bind=   5.87 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W Q  DDG_bind=   3.89 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W R  DDG_bind=   3.68 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W S  DDG_bind=   5.09 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W T  DDG_bind=   4.23 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W V  DDG_bind=   3.32 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  31    W Y  DDG_bind=   0.49 kcal/mol   Interface= yes   Acc= [D] 54.83 [ABCEF]  4.32 [ABCDEF]  4.38 
+3sf4.pdb [D+ABCEF] DEF  32    M A  DDG_bind=   2.29 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M C  DDG_bind=   1.63 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M D  DDG_bind=   2.92 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M E  DDG_bind=   2.54 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M F  DDG_bind=  -0.56 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M G  DDG_bind=   3.59 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M H  DDG_bind=   1.55 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M I  DDG_bind=  -0.42 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M K  DDG_bind=   2.04 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M L  DDG_bind=  -0.75 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M N  DDG_bind=   2.16 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M P  DDG_bind=   2.28 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M Q  DDG_bind=   1.66 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M R  DDG_bind=   1.31 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M S  DDG_bind=   2.80 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M T  DDG_bind=   1.80 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M V  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M W  DDG_bind=  -0.19 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  32    M Y  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 50.64 [ABCEF] 13.03 [ABCDEF] 10.98 
+3sf4.pdb [D+ABCEF] DEF  33    E A  DDG_bind=   0.73 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E C  DDG_bind=   1.73 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E D  DDG_bind=   0.56 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E F  DDG_bind=   1.69 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E G  DDG_bind=   1.69 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E H  DDG_bind=   1.03 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E I  DDG_bind=   1.53 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E K  DDG_bind=   0.15 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E L  DDG_bind=   1.02 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E M  DDG_bind=   1.07 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E N  DDG_bind=   0.62 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E P  DDG_bind=   1.78 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E Q  DDG_bind=   0.08 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E R  DDG_bind=   0.44 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E S  DDG_bind=   1.20 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E T  DDG_bind=   0.89 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E V  DDG_bind=   1.51 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E W  DDG_bind=   1.37 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  33    E Y  DDG_bind=   1.35 kcal/mol   Interface= no    Acc= [D] 42.96 [ABCEF] 51.02 [ABCDEF] 48.34 
+3sf4.pdb [D+ABCEF] DEF  34    D A  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D C  DDG_bind=   1.08 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D E  DDG_bind=  -0.40 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D F  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D G  DDG_bind=   1.43 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D H  DDG_bind=   0.43 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D I  DDG_bind=   0.82 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D K  DDG_bind=   0.06 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D L  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D M  DDG_bind=   0.21 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D N  DDG_bind=   0.17 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D P  DDG_bind=   1.22 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D Q  DDG_bind=  -0.29 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D R  DDG_bind=   0.20 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D S  DDG_bind=   0.62 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D T  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D V  DDG_bind=   0.80 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D W  DDG_bind=   0.96 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  34    D Y  DDG_bind=   0.97 kcal/mol   Interface= yes   Acc= [D] 62.38 [ABCEF] 40.01 [ABCDEF] 43.48 
+3sf4.pdb [D+ABCEF] DEF  35    L A  DDG_bind=   1.99 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L C  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L D  DDG_bind=   2.52 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L E  DDG_bind=   1.50 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L F  DDG_bind=   0.79 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L G  DDG_bind=   3.59 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L H  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L I  DDG_bind=   0.19 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L K  DDG_bind=   1.26 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L M  DDG_bind=   0.09 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L N  DDG_bind=   1.67 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L P  DDG_bind=   2.72 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L Q  DDG_bind=   0.80 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L R  DDG_bind=   0.80 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L S  DDG_bind=   2.07 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L T  DDG_bind=   1.28 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L V  DDG_bind=   0.86 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L W  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  35    L Y  DDG_bind=  -0.07 kcal/mol   Interface= yes   Acc= [D] 36.25 [ABCEF]  1.29 [ABCDEF]  1.04 
+3sf4.pdb [D+ABCEF] DEF  36    K A  DDG_bind=   0.75 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K C  DDG_bind=   1.04 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K D  DDG_bind=   1.25 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K E  DDG_bind=   0.50 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K F  DDG_bind=   0.65 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K G  DDG_bind=   2.06 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K H  DDG_bind=   0.65 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K I  DDG_bind=   0.23 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K L  DDG_bind=  -0.16 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K M  DDG_bind=   0.21 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K N  DDG_bind=   1.06 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K P  DDG_bind=   1.81 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K Q  DDG_bind=   0.36 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K R  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K S  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K T  DDG_bind=   1.13 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K V  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K W  DDG_bind=   0.64 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  36    K Y  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [D] 69.53 [ABCEF] 49.16 [ABCDEF] 48.57 
+3sf4.pdb [D+ABCEF] DEF  37    L A  DDG_bind=   0.16 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L C  DDG_bind=   0.32 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L D  DDG_bind=  -0.53 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L E  DDG_bind=  -0.21 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L F  DDG_bind=   0.27 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L G  DDG_bind=   0.13 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L H  DDG_bind=  -0.33 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L I  DDG_bind=   0.45 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L K  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L M  DDG_bind=   0.11 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L N  DDG_bind=  -0.58 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L P  DDG_bind=   0.29 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L Q  DDG_bind=  -0.13 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L R  DDG_bind=  -0.08 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L S  DDG_bind=  -0.44 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L T  DDG_bind=  -0.38 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L V  DDG_bind=   0.49 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L W  DDG_bind=   0.43 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  37    L Y  DDG_bind=   0.04 kcal/mol   Interface= yes   Acc= [D] 78.72 [ABCEF] 67.58 [ABCDEF] 68.19 
+3sf4.pdb [D+ABCEF] DEF  38    M A  DDG_bind=   1.03 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M C  DDG_bind=   0.66 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M D  DDG_bind=   0.45 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M E  DDG_bind=   0.41 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M F  DDG_bind=   0.02 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M G  DDG_bind=   0.92 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M H  DDG_bind=  -0.36 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M I  DDG_bind=   0.24 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M K  DDG_bind=  -0.12 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M L  DDG_bind=   0.31 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M N  DDG_bind=  -0.08 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M P  DDG_bind=   1.00 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M Q  DDG_bind=  -0.15 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M R  DDG_bind=  -0.08 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M S  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M T  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M V  DDG_bind=   0.54 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M W  DDG_bind=  -0.74 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  38    M Y  DDG_bind=   0.09 kcal/mol   Interface= yes   Acc= [D] 53.10 [ABCEF] 32.94 [ABCDEF] 30.15 
+3sf4.pdb [D+ABCEF] DEF  39    T A  DDG_bind=   2.37 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T C  DDG_bind=   0.61 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T D  DDG_bind=   1.56 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T E  DDG_bind=   2.88 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T F  DDG_bind=  -1.05 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T G  DDG_bind=   1.55 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T H  DDG_bind=  -0.06 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T I  DDG_bind=  -0.04 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T K  DDG_bind=   2.44 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T L  DDG_bind=   0.43 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T M  DDG_bind=  -0.06 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T N  DDG_bind=   0.95 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T P  DDG_bind=   1.84 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T Q  DDG_bind=   1.38 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T R  DDG_bind=   0.80 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T S  DDG_bind=   1.20 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T V  DDG_bind=  -0.24 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T W  DDG_bind=  -1.34 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  39    T Y  DDG_bind=  -1.08 kcal/mol   Interface= yes   Acc= [D] 69.51 [ABCEF] 17.38 [ABCDEF] 17.27 
+3sf4.pdb [D+ABCEF] DEF  40    E A  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E C  DDG_bind=   0.65 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E D  DDG_bind=   0.89 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E F  DDG_bind=  -1.30 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E G  DDG_bind=   1.68 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E H  DDG_bind=  -0.64 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E I  DDG_bind=  -0.86 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E K  DDG_bind=   0.48 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E L  DDG_bind=  -0.17 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E M  DDG_bind=  -0.13 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E N  DDG_bind=   0.55 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E P  DDG_bind=   1.63 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E Q  DDG_bind=  -0.17 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E R  DDG_bind=  -0.41 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E S  DDG_bind=   1.02 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E T  DDG_bind=   0.04 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E V  DDG_bind=  -0.35 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E W  DDG_bind=  -1.47 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  40    E Y  DDG_bind=  -1.25 kcal/mol   Interface= yes   Acc= [D] 92.91 [ABCEF] 22.02 [ABCDEF] 20.59 
+3sf4.pdb [D+ABCEF] DEF  41    C A  DDG_bind=   1.52 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C D  DDG_bind=   1.29 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C E  DDG_bind=   2.46 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C F  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C G  DDG_bind=   2.13 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C H  DDG_bind=   1.04 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C I  DDG_bind=   0.81 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C K  DDG_bind=   2.50 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C L  DDG_bind=   0.89 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C M  DDG_bind=   0.78 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C N  DDG_bind=   0.84 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C P  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C Q  DDG_bind=   2.21 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C R  DDG_bind=   1.75 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C S  DDG_bind=   1.10 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C T  DDG_bind=   1.07 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C V  DDG_bind=   1.09 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C W  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  41    C Y  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 56.13 [ABCEF] 21.90 [ABCDEF] 22.13 
+3sf4.pdb [D+ABCEF] DEF  42    E A  DDG_bind=   1.96 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E C  DDG_bind=  -0.08 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E D  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E F  DDG_bind=  -1.60 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E G  DDG_bind=   1.93 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E H  DDG_bind=  -1.60 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E I  DDG_bind=  -1.63 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E K  DDG_bind=   0.80 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E L  DDG_bind=  -0.18 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E M  DDG_bind=  -1.25 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E N  DDG_bind=  -0.37 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E P  DDG_bind=  -0.43 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E Q  DDG_bind=  -0.46 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E R  DDG_bind=  -0.51 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E S  DDG_bind=   0.82 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E T  DDG_bind=  -0.39 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E V  DDG_bind=  -1.01 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E W  DDG_bind=  -1.81 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  42    E Y  DDG_bind=  -1.66 kcal/mol   Interface= yes   Acc= [D] 89.15 [ABCEF]  6.71 [ABCDEF]  6.80 
+3sf4.pdb [D+ABCEF] DEF  43    C A  DDG_bind=   1.33 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C D  DDG_bind=   1.01 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C E  DDG_bind=   2.31 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C F  DDG_bind=   0.91 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C G  DDG_bind=   1.56 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C H  DDG_bind=   1.33 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C I  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C K  DDG_bind=   2.23 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C L  DDG_bind=   0.88 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C M  DDG_bind=   0.94 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C N  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C P  DDG_bind=   0.35 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C Q  DDG_bind=   2.14 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C R  DDG_bind=   1.85 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C S  DDG_bind=   1.03 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C T  DDG_bind=   1.32 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C V  DDG_bind=   0.84 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C W  DDG_bind=   0.17 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  43    C Y  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 34.91 [ABCEF] 17.80 [ABCDEF] 16.88 
+3sf4.pdb [D+ABCEF] DEF  44    M A  DDG_bind=   2.71 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M C  DDG_bind=   1.82 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M D  DDG_bind=   1.50 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M E  DDG_bind=   2.09 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M F  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M G  DDG_bind=   3.51 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M H  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M I  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M K  DDG_bind=   1.98 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M L  DDG_bind=   0.62 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M N  DDG_bind=   0.81 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M P  DDG_bind=   1.27 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M Q  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M R  DDG_bind=   1.12 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M S  DDG_bind=   2.01 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M T  DDG_bind=   1.56 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M V  DDG_bind=   1.19 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M W  DDG_bind=  -0.06 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  44    M Y  DDG_bind=   0.74 kcal/mol   Interface= yes   Acc= [D] 69.32 [ABCEF] 16.22 [ABCDEF] 16.39 
+3sf4.pdb [D+ABCEF] DEF  45    C A  DDG_bind=   1.63 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C D  DDG_bind=   2.53 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C E  DDG_bind=   4.01 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C F  DDG_bind=   0.08 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C G  DDG_bind=   2.32 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C H  DDG_bind=   1.32 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C I  DDG_bind=   0.39 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C K  DDG_bind=   3.79 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C L  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C M  DDG_bind=   0.88 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C N  DDG_bind=   1.94 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C P  DDG_bind=   3.59 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C Q  DDG_bind=   2.65 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C R  DDG_bind=   2.00 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C S  DDG_bind=   1.84 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C T  DDG_bind=   0.96 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C V  DDG_bind=   0.39 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C W  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  45    C Y  DDG_bind=   0.17 kcal/mol   Interface= yes   Acc= [D] 27.38 [ABCEF]  2.74 [ABCDEF]  1.83 
+3sf4.pdb [D+ABCEF] DEF  46    V A  DDG_bind=   2.51 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V C  DDG_bind=   1.42 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V D  DDG_bind=   1.80 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V E  DDG_bind=   2.38 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V F  DDG_bind=   0.23 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V G  DDG_bind=   3.02 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V H  DDG_bind=   1.22 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V I  DDG_bind=   0.30 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V K  DDG_bind=   2.24 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V L  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V M  DDG_bind=   0.63 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V N  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V P  DDG_bind=   1.30 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V Q  DDG_bind=   1.72 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V R  DDG_bind=   1.95 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V S  DDG_bind=   2.26 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V T  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V W  DDG_bind=   0.06 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  46    V Y  DDG_bind=   0.45 kcal/mol   Interface= yes   Acc= [D] 51.06 [ABCEF]  6.38 [ABCDEF]  6.08 
+3sf4.pdb [D+ABCEF] DEF  47    L A  DDG_bind=   3.11 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L C  DDG_bind=   1.46 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L D  DDG_bind=   4.35 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L E  DDG_bind=   5.63 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L F  DDG_bind=  -1.67 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L G  DDG_bind=   3.54 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L H  DDG_bind=   0.91 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L I  DDG_bind=  -0.18 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L K  DDG_bind=   4.28 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L M  DDG_bind=   0.69 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L N  DDG_bind=   3.43 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L P  DDG_bind=   4.34 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L Q  DDG_bind=   3.34 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L R  DDG_bind=   1.83 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L S  DDG_bind=   3.41 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L T  DDG_bind=   1.68 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L V  DDG_bind=   0.39 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L W  DDG_bind=  -1.52 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  47    L Y  DDG_bind=  -1.85 kcal/mol   Interface= yes   Acc= [D] 48.16 [ABCEF]  0.78 [ABCDEF]  0.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q A  DDG_bind=   1.85 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q C  DDG_bind=  -0.73 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q D  DDG_bind=   0.96 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q E  DDG_bind=   0.88 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q F  DDG_bind=  -3.11 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q G  DDG_bind=   1.47 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q H  DDG_bind=  -1.79 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q I  DDG_bind=  -2.43 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q K  DDG_bind=   0.94 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q L  DDG_bind=  -1.41 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q M  DDG_bind=  -1.28 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q N  DDG_bind=   0.10 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q P  DDG_bind=   1.40 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q R  DDG_bind=   0.14 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q S  DDG_bind=   0.63 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q T  DDG_bind=  -0.64 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q V  DDG_bind=  -1.82 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q W  DDG_bind=  -2.73 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  48    Q Y  DDG_bind=  -2.90 kcal/mol   Interface= yes   Acc= [D] 79.71 [ABCEF]  6.47 [ABCDEF]  5.52 
+3sf4.pdb [D+ABCEF] DEF  49    A C  DDG_bind=  -1.31 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A D  DDG_bind=   1.09 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A E  DDG_bind=   1.71 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A F  DDG_bind=  -1.45 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A G  DDG_bind=   0.82 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A H  DDG_bind=  -0.22 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A I  DDG_bind=  -1.39 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A K  DDG_bind=   1.59 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A L  DDG_bind=  -0.77 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A M  DDG_bind=  -0.54 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A N  DDG_bind=   0.47 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A P  DDG_bind=   1.33 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A Q  DDG_bind=   0.89 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A R  DDG_bind=   0.58 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A S  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A T  DDG_bind=  -0.09 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A V  DDG_bind=  -0.88 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A W  DDG_bind=  -1.32 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  49    A Y  DDG_bind=  -0.95 kcal/mol   Interface= yes   Acc= [D] 29.64 [ABCEF] 17.36 [ABCDEF] 15.81 
+3sf4.pdb [D+ABCEF] DEF  50    K A  DDG_bind=   1.45 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K C  DDG_bind=  -0.50 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K D  DDG_bind=   0.76 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K E  DDG_bind=   0.56 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K F  DDG_bind=  -2.83 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K G  DDG_bind=   1.94 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K H  DDG_bind=  -1.65 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K I  DDG_bind=  -1.71 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K L  DDG_bind=  -1.48 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K M  DDG_bind=  -1.59 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K N  DDG_bind=  -0.15 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K P  DDG_bind=   1.56 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K Q  DDG_bind=  -0.22 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K R  DDG_bind=  -1.01 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K S  DDG_bind=   0.41 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K T  DDG_bind=  -0.72 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K V  DDG_bind=  -1.10 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K W  DDG_bind=  -2.82 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  50    K Y  DDG_bind=  -2.77 kcal/mol   Interface= yes   Acc= [D] 88.13 [ABCEF]  7.31 [ABCDEF]  7.38 
+3sf4.pdb [D+ABCEF] DEF  51    P A  DDG_bind=   1.12 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P C  DDG_bind=   0.77 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P D  DDG_bind=   0.58 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P E  DDG_bind=   1.45 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P F  DDG_bind=   0.89 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P G  DDG_bind=   1.66 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P H  DDG_bind=   0.42 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P I  DDG_bind=   0.84 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P K  DDG_bind=   1.08 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P L  DDG_bind=   0.94 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P M  DDG_bind=   0.96 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P N  DDG_bind=   0.41 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P Q  DDG_bind=   1.19 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P R  DDG_bind=   0.86 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P S  DDG_bind=   0.68 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P T  DDG_bind=   0.45 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P V  DDG_bind=   0.65 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P W  DDG_bind=   0.86 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  51    P Y  DDG_bind=   0.75 kcal/mol   Interface= yes   Acc= [D] 44.28 [ABCEF] 46.66 [ABCDEF] 40.64 
+3sf4.pdb [D+ABCEF] DEF  52    I A  DDG_bind=   2.98 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I C  DDG_bind=   2.26 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I D  DDG_bind=   3.82 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I E  DDG_bind=   3.33 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I F  DDG_bind=   0.83 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I G  DDG_bind=   4.34 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I H  DDG_bind=   1.77 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I K  DDG_bind=   2.51 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I L  DDG_bind=   0.40 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I M  DDG_bind=   0.70 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I N  DDG_bind=   3.04 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I P  DDG_bind=   1.76 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I Q  DDG_bind=   1.99 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I R  DDG_bind=   1.95 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I S  DDG_bind=   3.14 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I T  DDG_bind=   1.97 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I V  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I W  DDG_bind=   0.00 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  52    I Y  DDG_bind=   0.62 kcal/mol   Interface= yes   Acc= [D] 88.40 [ABCEF] 12.71 [ABCDEF] 11.60 
+3sf4.pdb [D+ABCEF] DEF  53    S A  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S C  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S D  DDG_bind=   1.24 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S E  DDG_bind=   1.82 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S F  DDG_bind=   0.97 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S G  DDG_bind=   1.03 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S H  DDG_bind=   0.97 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S I  DDG_bind=   0.98 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S K  DDG_bind=   1.76 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S L  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S M  DDG_bind=   0.98 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S N  DDG_bind=   1.04 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S P  DDG_bind=   0.82 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S Q  DDG_bind=   1.31 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S R  DDG_bind=   1.35 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S T  DDG_bind=   0.66 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S V  DDG_bind=   0.71 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S W  DDG_bind=   1.23 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  53    S Y  DDG_bind=   1.36 kcal/mol   Interface= yes   Acc= [D] 47.77 [ABCEF] 51.23 [ABCDEF] 41.09 
+3sf4.pdb [D+ABCEF] DEF  54    L A  DDG_bind=   0.05 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L C  DDG_bind=   0.24 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L D  DDG_bind=   0.34 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L E  DDG_bind=   0.11 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L F  DDG_bind=   0.32 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L G  DDG_bind=   0.47 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L H  DDG_bind=   0.24 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L I  DDG_bind=   0.04 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L K  DDG_bind=   0.01 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L M  DDG_bind=   0.09 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L N  DDG_bind=   0.28 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L P  DDG_bind=   0.34 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L Q  DDG_bind=  -0.06 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L R  DDG_bind=   0.03 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L S  DDG_bind=   0.17 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L T  DDG_bind=  -0.09 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L V  DDG_bind=   0.11 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L W  DDG_bind=   0.48 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  54    L Y  DDG_bind=   0.50 kcal/mol   Interface= no    Acc= [D] 84.93 [ABCEF] 85.45 [ABCDEF] 82.86 
+3sf4.pdb [D+ABCEF] DEF  55    E A  DDG_bind=  -0.08 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E C  DDG_bind=  -0.27 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E D  DDG_bind=  -0.13 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E F  DDG_bind=  -0.25 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E G  DDG_bind=   0.69 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E H  DDG_bind=  -0.07 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E I  DDG_bind=  -0.41 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E K  DDG_bind=   0.31 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E L  DDG_bind=  -0.14 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E M  DDG_bind=  -0.12 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E N  DDG_bind=   0.04 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E P  DDG_bind=   0.65 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E Q  DDG_bind=   0.13 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E R  DDG_bind=   0.04 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E S  DDG_bind=  -0.05 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E T  DDG_bind=  -0.01 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E V  DDG_bind=  -0.28 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E W  DDG_bind=   0.33 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  55    E Y  DDG_bind=  -0.06 kcal/mol   Interface= no    Acc= [D] 67.67 [ABCEF] 60.69 [ABCDEF] 64.18 
+3sf4.pdb [D+ABCEF] DEF  56    E A  DDG_bind=  -1.12 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E C  DDG_bind=  -0.85 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E D  DDG_bind=  -0.27 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E F  DDG_bind=  -0.26 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E G  DDG_bind=  -0.30 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E H  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E I  DDG_bind=  -0.84 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E K  DDG_bind=  -0.14 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E L  DDG_bind=  -0.55 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E M  DDG_bind=  -0.61 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E N  DDG_bind=  -0.31 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E P  DDG_bind=  -0.69 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E Q  DDG_bind=  -0.27 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E R  DDG_bind=  -0.27 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E S  DDG_bind=  -0.71 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E T  DDG_bind=  -0.84 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E V  DDG_bind=  -0.84 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E W  DDG_bind=  -0.27 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  56    E Y  DDG_bind=  -0.06 kcal/mol   Interface= yes   Acc= [D] 95.60 [ABCEF] 41.35 [ABCDEF] 68.47 
+3sf4.pdb [D+ABCEF] DEF  57    D A  DDG_bind=   0.32 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D C  DDG_bind=   0.32 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D E  DDG_bind=   0.27 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D F  DDG_bind=   0.64 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D G  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D H  DDG_bind=   0.27 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D I  DDG_bind=   0.61 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D K  DDG_bind=   0.37 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D L  DDG_bind=   0.72 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D M  DDG_bind=   0.69 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D N  DDG_bind=   0.06 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D P  DDG_bind=   1.35 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D Q  DDG_bind=   0.22 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D R  DDG_bind=   0.32 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D S  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D T  DDG_bind=   0.19 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D V  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D W  DDG_bind=   0.85 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  57    D Y  DDG_bind=   0.61 kcal/mol   Interface= yes   Acc= [D] 88.22 [ABCEF] 100.00 [ABCDEF] 94.11 
+3sf4.pdb [D+ABCEF] DEF  58    A C  DDG_bind=  -0.48 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A D  DDG_bind=   0.09 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A E  DDG_bind=   0.74 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A F  DDG_bind=  -0.84 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A G  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A H  DDG_bind=  -0.44 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A I  DDG_bind=  -0.38 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A K  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A L  DDG_bind=  -0.25 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A M  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A N  DDG_bind=  -0.09 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A P  DDG_bind=   1.91 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A Q  DDG_bind=  -0.15 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A R  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A S  DDG_bind=  -0.21 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A T  DDG_bind=  -0.45 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A V  DDG_bind=  -0.57 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A W  DDG_bind=  -0.86 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  58    A Y  DDG_bind=  -0.99 kcal/mol   Interface= yes   Acc= [D] 56.73 [ABCEF] 15.24 [ABCDEF] 19.48 
+3sf4.pdb [D+ABCEF] DEF  59    Q A  DDG_bind=   0.19 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q C  DDG_bind=  -0.12 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q D  DDG_bind=  -0.07 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q E  DDG_bind=  -0.22 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q F  DDG_bind=  -0.14 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q G  DDG_bind=   0.66 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q H  DDG_bind=  -0.32 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q I  DDG_bind=  -0.08 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q K  DDG_bind=   0.03 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q L  DDG_bind=   0.06 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q M  DDG_bind=  -0.03 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q N  DDG_bind=  -0.13 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q P  DDG_bind=  -0.02 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q R  DDG_bind=  -0.08 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q S  DDG_bind=  -0.02 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q T  DDG_bind=  -0.43 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q V  DDG_bind=   0.08 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q W  DDG_bind=  -0.12 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  59    Q Y  DDG_bind=  -0.02 kcal/mol   Interface= no    Acc= [D] 51.76 [ABCEF] 45.03 [ABCDEF] 48.40 
+3sf4.pdb [D+ABCEF] DEF  60    G A  DDG_bind=   0.46 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G C  DDG_bind=  -0.48 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G D  DDG_bind=  -0.10 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G E  DDG_bind=   0.36 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G F  DDG_bind=   0.44 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G H  DDG_bind=   0.02 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G I  DDG_bind=   0.56 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G K  DDG_bind=   0.67 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G L  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G M  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G N  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G P  DDG_bind=   2.43 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G Q  DDG_bind=   0.36 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G R  DDG_bind=   0.54 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G S  DDG_bind=  -0.26 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G T  DDG_bind=  -0.04 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G V  DDG_bind=   0.14 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G W  DDG_bind=   0.51 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  60    G Y  DDG_bind=   0.47 kcal/mol   Interface= yes   Acc= [D] 66.97 [ABCEF] 42.00 [ABCDEF] 48.24 
+3sf4.pdb [D+ABCEF] DEF  61    D A  DDG_bind=   1.73 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D C  DDG_bind=   1.05 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D E  DDG_bind=   0.64 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D F  DDG_bind=  -0.16 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D G  DDG_bind=   2.05 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D H  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D I  DDG_bind=   0.36 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D K  DDG_bind=   0.93 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D L  DDG_bind=   0.18 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D M  DDG_bind=   0.30 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D N  DDG_bind=   0.31 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D P  DDG_bind=  -0.10 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D Q  DDG_bind=   0.66 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D R  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D S  DDG_bind=   0.89 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D T  DDG_bind=   0.08 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D V  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D W  DDG_bind=  -0.95 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  61    D Y  DDG_bind=  -0.23 kcal/mol   Interface= yes   Acc= [D] 44.74 [ABCEF] 38.44 [ABCDEF] 30.25 
+3sf4.pdb [D+ABCEF] DEF  62    L A  DDG_bind=   1.21 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L C  DDG_bind=   0.79 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L D  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L E  DDG_bind=   0.67 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L F  DDG_bind=  -0.30 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L G  DDG_bind=   1.26 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L H  DDG_bind=   0.09 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L I  DDG_bind=  -0.16 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L K  DDG_bind=   0.58 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L M  DDG_bind=   0.31 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L N  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L P  DDG_bind=   1.84 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L Q  DDG_bind=   0.38 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L R  DDG_bind=   0.24 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L S  DDG_bind=   0.79 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L T  DDG_bind=   0.28 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L V  DDG_bind=  -0.03 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L W  DDG_bind=  -0.43 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  62    L Y  DDG_bind=  -0.24 kcal/mol   Interface= yes   Acc= [D] 59.04 [ABCEF] 37.03 [ABCDEF] 36.42 
+3sf4.pdb [D+ABCEF] DEF  63    I A  DDG_bind=   1.49 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I C  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I D  DDG_bind=   1.48 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I E  DDG_bind=   1.47 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I F  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I G  DDG_bind=   1.88 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I H  DDG_bind=   0.67 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I K  DDG_bind=   1.40 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I L  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I M  DDG_bind=   0.63 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I N  DDG_bind=   1.11 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I P  DDG_bind=   2.21 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I Q  DDG_bind=   0.94 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I R  DDG_bind=   0.85 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I S  DDG_bind=   1.17 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I T  DDG_bind=   0.55 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I V  DDG_bind=   0.19 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I W  DDG_bind=   0.35 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  63    I Y  DDG_bind=   0.41 kcal/mol   Interface= yes   Acc= [D] 46.41 [ABCEF] 39.78 [ABCDEF] 37.94 
+3sf4.pdb [D+ABCEF] DEF  64    L A  DDG_bind=   0.86 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L C  DDG_bind=   0.26 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L D  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L E  DDG_bind=   0.54 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L F  DDG_bind=   0.16 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L G  DDG_bind=   1.22 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L H  DDG_bind=   0.23 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L I  DDG_bind=  -0.19 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L K  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L M  DDG_bind=   0.20 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L N  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L P  DDG_bind=   1.64 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L Q  DDG_bind=   0.33 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L R  DDG_bind=   0.28 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L S  DDG_bind=   0.52 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L T  DDG_bind=  -0.02 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L V  DDG_bind=  -0.30 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L W  DDG_bind=   0.62 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  64    L Y  DDG_bind=   0.18 kcal/mol   Interface= yes   Acc= [D] 62.14 [ABCEF] 44.28 [ABCDEF] 44.71 
+3sf4.pdb [D+ABCEF] DEF  65    A C  DDG_bind=  -0.94 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A D  DDG_bind=   1.61 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A E  DDG_bind=   2.13 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A F  DDG_bind=  -0.94 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A G  DDG_bind=   0.88 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A H  DDG_bind=  -0.04 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A I  DDG_bind=  -0.99 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A K  DDG_bind=   1.70 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A L  DDG_bind=  -0.66 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A M  DDG_bind=  -0.42 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A N  DDG_bind=   0.94 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A P  DDG_bind=   0.48 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A Q  DDG_bind=   1.12 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A R  DDG_bind=   0.90 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A S  DDG_bind=   0.29 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A T  DDG_bind=   0.25 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A V  DDG_bind=  -0.97 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A W  DDG_bind=  -0.76 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  65    A Y  DDG_bind=  -0.53 kcal/mol   Interface= yes   Acc= [D] 28.79 [ABCEF] 11.01 [ABCDEF]  9.60 
+3sf4.pdb [D+ABCEF] DEF  66    G A  DDG_bind=  -0.04 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G C  DDG_bind=  -0.42 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G D  DDG_bind=   0.30 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G E  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G F  DDG_bind=   0.24 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G H  DDG_bind=   0.10 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G I  DDG_bind=   0.15 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G K  DDG_bind=   0.17 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G L  DDG_bind=   0.21 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G M  DDG_bind=   0.23 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G N  DDG_bind=   0.21 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G P  DDG_bind=   0.90 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G Q  DDG_bind=  -0.13 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G R  DDG_bind=   0.16 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G S  DDG_bind=   0.01 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G T  DDG_bind=  -0.11 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G V  DDG_bind=  -0.10 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G W  DDG_bind=   0.60 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  66    G Y  DDG_bind=   0.28 kcal/mol   Interface= yes   Acc= [D] 87.40 [ABCEF] 68.10 [ABCDEF] 66.97 
+3sf4.pdb [D+ABCEF] DEF  67    G A  DDG_bind=  -0.58 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G C  DDG_bind=  -0.52 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G D  DDG_bind=   0.57 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G E  DDG_bind=   1.50 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G F  DDG_bind=  -0.11 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G H  DDG_bind=   0.21 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G I  DDG_bind=  -0.09 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G K  DDG_bind=   1.76 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G L  DDG_bind=  -0.04 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G M  DDG_bind=   0.34 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G N  DDG_bind=   0.55 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G P  DDG_bind=  -0.33 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G Q  DDG_bind=   0.99 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G R  DDG_bind=   1.26 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G S  DDG_bind=  -0.19 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G T  DDG_bind=  -0.00 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G V  DDG_bind=  -0.44 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G W  DDG_bind=   0.47 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  67    G Y  DDG_bind=   0.54 kcal/mol   Interface= no    Acc= [D] 40.86 [ABCEF] 45.40 [ABCDEF] 40.86 
+3sf4.pdb [D+ABCEF] DEF  68    P A  DDG_bind=   0.55 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P C  DDG_bind=   0.18 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P D  DDG_bind=   0.54 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P E  DDG_bind=   0.76 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P F  DDG_bind=   0.65 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P G  DDG_bind=   0.35 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P H  DDG_bind=   0.57 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P I  DDG_bind=   0.31 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P K  DDG_bind=   0.83 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P L  DDG_bind=   0.40 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P M  DDG_bind=   0.40 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P N  DDG_bind=   0.53 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P Q  DDG_bind=   0.73 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P R  DDG_bind=   0.71 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P S  DDG_bind=   0.32 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P T  DDG_bind=   0.24 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P V  DDG_bind=   0.13 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P W  DDG_bind=   0.87 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+3sf4.pdb [D+ABCEF] DEF  68    P Y  DDG_bind=   0.69 kcal/mol   Interface= yes   Acc= [D] 100.00 [ABCEF] 83.11 [ABCDEF] 83.11 
+
