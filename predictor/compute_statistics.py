@@ -44,7 +44,7 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
     print("\t{}\t{}\t{}\n".format(TPR, FPR, MCC))
 
 def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):
-    uep_thresholds = np.arange(-2, 2, 0.1)
+    uep_thresholds = np.arange(-2, 2, 0.05)
     mcc = 0
     best_threshold = 0
     experimental_threshold = 0
@@ -78,7 +78,7 @@ def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):
             MCC = 0
         else:
             MCC = round(((TP * TN) - (FP * FN)) / ((TP + FP)*(TP + FN)*(TN + FP)*(TN + FN))**0.5, 4)
-        print(MCC, uep_threshold)
+        #print(MCC, uep_threshold)
         if MCC > mcc:
             mcc = MCC
             best_threshold = uep_threshold

@@ -24,7 +24,7 @@ def main():
     model_trained = "trained_model/UEP_trained_model_4"
     training_data = load(model_trained, compression="lzma", set_default_extension=False)
     skempi_processed_data_single, skempi_processed_data_multiple, skempi_processed_data_single_no_renamed = read_skempi.process_skempi_data(skempi_path)
-
+    
     compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BEATMUSIC")
     compute_statistics.best_mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed)
 

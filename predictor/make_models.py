@@ -1,3 +1,4 @@
+import glob
 from multiprocessing import Pool
 from pathlib import Path
 import shutil
@@ -185,7 +186,21 @@ def run_beatmusic(folder="skempi/beatmusic/output/"):
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
                     data.setdefault(entry, ddG)
-    return beatmusic_data
+    return data
+
+def run_mcsm(folder="skempi/mcsm/output/"):
+    data = {}
+    for path in glob.glob("{}*.txt".format(folder)):
+        with open(path, "r") as f:
+            next(f)
+            for line in f:
+                if len(line) > 1:
+                    line = line.rstrip().split()
+                    pdb, chain, original, resnum, mutation, ddG = line[0].split(".pdb")[0].upper(), line[1], line[2], line[3], line[4], float(line[6])
+                    name = "{}{}{}{}".format(original, chain, resnum, mutation)
+                    entry = "{}_{}".format(pdb, name)
+                    data.setdefault(entry, ddG)
+    return data
 
 def run_multiprocessing_models(skempi_processed_data_single):
     data = export_mutations(skempi_processed_data_single)
