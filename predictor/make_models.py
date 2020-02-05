@@ -202,6 +202,32 @@ def run_mcsm(folder="skempi/mcsm/output/"):
                     data.setdefault(entry, ddG)
     return data
 
+def read_mcsm_training_data(training_path="skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"):
+    mcsm_training_list = []
+    with open(training_path, "r") as f:
+        next(f)
+        for line in f:
+            line = line.rstrip().split(";")
+            pdb, original, chain, resnum, mutation = line[0].split(".pdb")[0].upper(), line[1], line[2], line[3], line[4] 
+            name = "{}_{}{}{}{}".format(pdb, original, chain, resnum, mutation)
+            mcsm_training_list.append(name)
+    return mcsm_training_list
+
+def run_mcsm_and_split(folder, training_path, skempi_raw_renamed_original):
+    #data = dict: key = renamed, value = ddG 
+    #skempi_raw_original_renamed = dict: key = original, value = renamed
+    #data_from_training = list of mutations from training
+    data = run_mcsm(folder="skempi/mcsm/output/")
+    mcsm_training_list = read_mcsm_training_data(training_path="skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv")
+    training_data, new_data = {}, {}
+    for renamed_mutation, ddG in data.items():
+        original_mutation = skempi_raw_renamed_original[renamed_mutation]
+        if original_mutation in mcsm_training_list:
+            training_data.setdefault(renamed_mutation, ddG)
+        else:
+            new_data.setdefault(renamed_mutation, ddG)
+    return training_data, new_data
+
 def run_multiprocessing_models(skempi_processed_data_single):
     data = export_mutations(skempi_processed_data_single)
     generate_files(data)
