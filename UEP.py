@@ -27,7 +27,6 @@ def main(cpus=27, skempi=False, scan=""):
         data = make_models.export_mutations(skempi_processed_data_single)
         data_no_renamed = make_models.export_mutations(skempi_processed_data_single_no_renamed)
         
-        print(data_no_renamed)
         ### --- MAKE 3D STRUCTURES USING FOLDX --- ###
         #make_models.run_multiprocessing_models(skempi_uep_predictions)
         
@@ -36,7 +35,7 @@ def main(cpus=27, skempi=False, scan=""):
         compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP")
         compute_statistics.best_mcc(skempi_uep_predictions, skempi_processed_data_single)
 
-        ## --- PYDOCK --- ###
+        ### -- PYDOCK --- ###
         #make_models.run_multiprocessing_pydock(data)
         interaction_data_pydock = make_models.get_interaction_data_pydock(data)
         ddG_data_pydock = make_models.get_ddG_pydock(interaction_data_pydock)
@@ -44,13 +43,19 @@ def main(cpus=27, skempi=False, scan=""):
         compute_statistics.mcc(names_pydock, skempi_processed_data_single, 0.0, "PYDOCK")
         compute_statistics.best_mcc(names_pydock, skempi_processed_data_single)
         
-        ## --- FOLDX ---- ###
+        ### --- FOLDX --- ###
         #make_models.run_multiprocessing_foldx(data)
         interaction_data_foldx = make_models.get_interaction_data_foldx(data)
         ddG_data_foldx = make_models.get_ddG_foldx(interaction_data_foldx)
         names_foldx = make_models.get_foldx_mutation_names(ddG_data_foldx)
         compute_statistics.mcc(names_foldx, skempi_processed_data_single, 0.0, "FOLDX")
         compute_statistics.best_mcc(names_foldx, skempi_processed_data_single)
+
+        ### - BEATMUSIC - ###      
+        beatmusic_folder = "skempi/beatmusic/output/"
+        interaction_data_beatmusic = run_beatmusic(beatmusic_folder)
+        compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BEATMUSIC")
+        compute_statistics.best_mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed)
 
 if __name__ == "__main__":
     cpu, skempi, scan = parse_args()

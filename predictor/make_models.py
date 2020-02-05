@@ -174,6 +174,19 @@ def get_foldx_mutation_names_for_pydock(ddG_data_pydock):
                     names_pydock.setdefault("{}_{}".format(pdb, mutation), value)
     return names_pydock
 
+def run_beatmusic(folder="skempi/beatmusic/output/"):
+    data = {}
+    for path in glob.glob("{}*.txt".format(folder)):
+        with open(path, "r") as f:
+            for line in f:
+                if len(line) > 1:
+                    line = line.rstrip().split()
+                    pdb, chain, resnum, original, mutation, ddG = line[0].split(".pdb")[0].upper(), path.split("_")[-1].split(".txt")[0], line[3], line[4], line[5], -float(line[7])
+                    name = "{}{}{}{}".format(original, chain, resnum, mutation)
+                    entry = "{}_{}".format(pdb, name)
+                    data.setdefault(entry, ddG)
+    return beatmusic_data
+
 def run_multiprocessing_models(skempi_processed_data_single):
     data = export_mutations(skempi_processed_data_single)
     generate_files(data)
