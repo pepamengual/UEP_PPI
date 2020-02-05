@@ -1,0 +1,4 @@
+A G12D
+A G12C
+A G12V
+B Q25R

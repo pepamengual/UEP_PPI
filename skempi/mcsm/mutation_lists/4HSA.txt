@@ -1,0 +1,4 @@
+A R28V
+A W40V
+A Y58I
+A H59S
