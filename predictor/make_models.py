@@ -175,7 +175,8 @@ def get_foldx_mutation_names_for_pydock(ddG_data_pydock):
                     names_pydock.setdefault("{}_{}".format(pdb, mutation), value)
     return names_pydock
 
-def run_beatmusic(folder="skempi/beatmusic/output/"):
+def run_beatmusic(folder, data_filtered):
+    #folder = "skempi/beatmusic/output/"
     data = {}
     for path in glob.glob("{}*.txt".format(folder)):
         with open(path, "r") as f:
@@ -185,10 +186,12 @@ def run_beatmusic(folder="skempi/beatmusic/output/"):
                     pdb, chain, resnum, original, mutation, ddG = line[0].split(".pdb")[0].upper(), path.split("_")[-1].split(".txt")[0], line[3], line[4], line[5], -float(line[7])
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
-                    data.setdefault(entry, ddG)
+                    if pdb in data_filtered and name in data_filtered[pdb]:
+                        data.setdefault(entry, ddG)
     return data
 
-def run_mcsm(folder="skempi/mcsm/output/"):
+def run_mcsm(folder, data_filtered):
+    #folder = "skempi/mcsm/output/"
     data = {}
     for path in glob.glob("{}*.txt".format(folder)):
         with open(path, "r") as f:
@@ -199,10 +202,12 @@ def run_mcsm(folder="skempi/mcsm/output/"):
                     pdb, chain, original, resnum, mutation, ddG = line[0].split(".pdb")[0].upper(), line[1], line[2], line[3], line[4], float(line[6])
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
-                    data.setdefault(entry, ddG)
+                    if pdb in data_filtered and name in data_filtered[pdb]:
+                        data.setdefault(entry, ddG)
     return data
 
-def read_mcsm_training_data(training_path="skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"):
+def read_mcsm_training_data(training_path):
+    #training_path = "skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"
     mcsm_training_list = []
     with open(training_path, "r") as f:
         next(f)
@@ -213,12 +218,12 @@ def read_mcsm_training_data(training_path="skempi/mcsm/dataset/BeAtMuSiC_dataset
             mcsm_training_list.append(name)
     return mcsm_training_list
 
-def run_mcsm_and_split(folder, training_path, skempi_raw_renamed_original):
+def run_mcsm_and_split(folder, training_path, skempi_raw_renamed_original, data_filtered):
     #data = dict: key = renamed, value = ddG 
     #skempi_raw_original_renamed = dict: key = original, value = renamed
     #data_from_training = list of mutations from training
-    data = run_mcsm(folder="skempi/mcsm/output/")
-    mcsm_training_list = read_mcsm_training_data(training_path="skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv")
+    data = run_mcsm(folder, data_filtered) # folder = "skempi/mcsm/output/"
+    mcsm_training_list = read_mcsm_training_data(training_path) # training_path = "skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"
     training_data, new_data = {}, {}
     for renamed_mutation, ddG in data.items():
         original_mutation = skempi_raw_renamed_original[renamed_mutation]
