@@ -175,8 +175,12 @@ def get_foldx_mutation_names_for_pydock(ddG_data_pydock):
                     names_pydock.setdefault("{}_{}".format(pdb, mutation), value)
     return names_pydock
 
-def run_beatmusic(folder, data_filtered):
+def run_beatmusic(folder, data_uep, skempi_raw_renamed_original): #beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original
     #folder = "skempi/beatmusic/output/"
+    data_to_test = list(data_uep.keys())
+    data_to_test = ["{}_{}".format(i.split("_")[0], i.split("_")[-1]) for i in data_to_test]
+    data_to_test = [skempi_raw_renamed_original[i] for i in data_to_test]
+    data_to_test = set(data_to_test)
     data = {}
     for path in glob.glob("{}*.txt".format(folder)):
         with open(path, "r") as f:
@@ -186,12 +190,15 @@ def run_beatmusic(folder, data_filtered):
                     pdb, chain, resnum, original, mutation, ddG = line[0].split(".pdb")[0].upper(), path.split("_")[-1].split(".txt")[0], line[3], line[4], line[5], -float(line[7])
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
-                    if pdb in data_filtered and name in data_filtered[pdb]:
+                    if len(data_to_test.intersection(set([entry]))) == 1:
                         data.setdefault(entry, ddG)
     return data
 
-def run_mcsm(folder, data_filtered):
+def run_mcsm(folder, data_uep):
     #folder = "skempi/mcsm/output/"
+    data_to_test = list(data_uep.keys())
+    data_to_test = ["{}_{}".format(i.split("_")[0], i.split("_")[-1]) for i in data_to_test]
+    data_to_test = set(data_to_test)
     data = {}
     for path in glob.glob("{}*.txt".format(folder)):
         with open(path, "r") as f:
@@ -202,7 +209,7 @@ def run_mcsm(folder, data_filtered):
                     pdb, chain, original, resnum, mutation, ddG = line[0].split(".pdb")[0].upper(), line[1], line[2], line[3], line[4], float(line[6])
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
-                    if pdb in data_filtered and name in data_filtered[pdb]:
+                    if len(data_to_test.intersection(set([entry]))) == 1:
                         data.setdefault(entry, ddG)
     return data
 
@@ -218,11 +225,11 @@ def read_mcsm_training_data(training_path):
             mcsm_training_list.append(name)
     return mcsm_training_list
 
-def run_mcsm_and_split(folder, training_path, skempi_raw_renamed_original, data_filtered):
+def run_mcsm_and_split(folder, training_path, data_uep, skempi_raw_renamed_original):
     #data = dict: key = renamed, value = ddG 
     #skempi_raw_original_renamed = dict: key = original, value = renamed
     #data_from_training = list of mutations from training
-    data = run_mcsm(folder, data_filtered) # folder = "skempi/mcsm/output/"
+    data = run_mcsm(folder, data_uep) # folder = "skempi/mcsm/output/"
     mcsm_training_list = read_mcsm_training_data(training_path) # training_path = "skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"
     training_data, new_data = {}, {}
     for renamed_mutation, ddG in data.items():

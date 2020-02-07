@@ -27,7 +27,6 @@ def main(cpus=27, skempi=False, scan=""):
         data = make_models.export_mutations(skempi_processed_data_single)
         data_no_renamed = make_models.export_mutations(skempi_processed_data_single_no_renamed)
         
-        print(len(data.values()), len(data_no_renamed.values()))
         ### --- MAKE 3D STRUCTURES USING FOLDX --- ###
         #make_models.run_multiprocessing_models(skempi_uep_predictions)
         
@@ -35,7 +34,7 @@ def main(cpus=27, skempi=False, scan=""):
         skempi_uep_predictions = scoring_all.run_multiprocessing(skempi_processed_data_single, cpus, training_data)
         compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP")
         compute_statistics.best_mcc(skempi_uep_predictions, skempi_processed_data_single)
-
+        
         ### -- PYDOCK --- ###
         #make_models.run_multiprocessing_pydock(data)
         interaction_data_pydock = make_models.get_interaction_data_pydock(data)
@@ -54,14 +53,14 @@ def main(cpus=27, skempi=False, scan=""):
         
         ### - BEATMUSIC - ###      
         beatmusic_folder = "skempi/beatmusic/output/"
-        interaction_data_beatmusic = make_models.run_beatmusic(beatmusic_folder, data_no_renamed)
+        interaction_data_beatmusic = make_models.run_beatmusic(beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original)
         compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BEATMUSIC")
         #compute_statistics.best_mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed)
         
         ### --- MCSM ---- ###
         mcsm_folder = "skempi/mcsm/output/"
         mcsm_training_path = "skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"
-        interaction_training_data_mcsm, interaction_new_data_mcsm = make_models.run_mcsm_and_split(mcsm_folder, mcsm_training_path, skempi_raw_renamed_original, data)
+        interaction_training_data_mcsm, interaction_new_data_mcsm = make_models.run_mcsm_and_split(mcsm_folder, mcsm_training_path, skempi_uep_predictions, skempi_raw_renamed_original)
         compute_statistics.mcc(interaction_training_data_mcsm, skempi_processed_data_single, 0.0, "TRANING MCSM")
         compute_statistics.mcc(interaction_new_data_mcsm, skempi_processed_data_single, 0.0, "NEW MCSM")
         #compute_statistics.best_mcc(interaction_data_mcsm, skempi_processed_data_single)
