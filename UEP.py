@@ -57,6 +57,10 @@ def main(cpus=27, skempi=False, scan=""):
         compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BEATMUSIC")
         #compute_statistics.best_mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed)
         
+        ### -- PRODIGY -- ###
+        results_prodigy = make_models.run_multiprocessing_prodigy(data)
+        compute_statistics.mcc(results_prodigy, skempi_processed_data_single, 0.0, "PRODIGY")
+    
         ### --- MCSM ---- ###
         mcsm_folder = "skempi/mcsm/output/"
         mcsm_training_path = "skempi/mcsm/dataset/BeAtMuSiC_dataset/BeAtMuSiC.csv"
@@ -64,6 +68,7 @@ def main(cpus=27, skempi=False, scan=""):
         compute_statistics.mcc(interaction_training_data_mcsm, skempi_processed_data_single, 0.0, "TRANING MCSM")
         compute_statistics.mcc(interaction_new_data_mcsm, skempi_processed_data_single, 0.0, "NEW MCSM")
         #compute_statistics.best_mcc(interaction_data_mcsm, skempi_processed_data_single)
+
 if __name__ == "__main__":
     cpu, skempi, scan = parse_args()
     main(cpus=cpu, skempi=skempi, scan=scan)

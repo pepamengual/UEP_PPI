@@ -240,6 +240,48 @@ def run_mcsm_and_split(folder, training_path, data_uep, skempi_raw_renamed_origi
             new_data.setdefault(renamed_mutation, ddG)
     return training_data, new_data
 
+def run_prodigy(work):
+    pdb_mutation_name, file_name_mutation, file_name_wildtype = work[0], work[1], work[2]
+    mutation_energy = os.popen("prodigy {} -q".format(file_name_mutation)).read()
+    wildtype_energy = os.popen("prodigy {} -q".format(file_name_wildtype)).read()
+    if mutation_energy and wildtype_energy:
+        wt_energy = float(wildtype_energy.split()[1])
+        mt_energy = float(mutation_energy.split()[1])
+        if wt_energy and mt_energy:
+            ddG = round(wt_energy - mt_energy, 3)
+            if ddG is None:
+                ddG = "CAN'T"
+            return pdb_mutation_name, ddG
+    else:
+        print("{} can't".format(pdb_mutation_name))
+        return pdb_mutation_name, "CAN'T"
+
+def run_multiprocessing_prodigy(data_dict):
+    result_file = "skempi/prodigy_results.txt"
+    data = {}
+    if os.path.isfile(result_file):
+         with open(result_file, "r") as f:
+            for line in f:
+                line = line.rstrip().split()
+                mutation, ddG = line[0], float(line[1])
+                data.setdefault(mutation, ddG)
+    else:
+        prodigy_run_list = create_prodigy_jobs(data_dict)
+        pool = Pool(processes=25)
+        multiple_results = []
+        for work in prodigy_run_list:
+            multiple_results.append(pool.apply_async(run_prodigy, (work,)))
+        for result in multiple_results:
+            pdb_mutation_name, ddG = result.get()
+            if ddG != "CAN'T":
+                data.setdefault(pdb_mutation_name, ddG)
+
+        with open(result_file, "w") as f:
+            for pdb_mutation_name, ddG in data.items():
+                to_write = "{} {}".format(pdb_mutation_name, ddG)
+                f.write(to_write + "\n")
+    return data
+
 def run_multiprocessing_models(skempi_processed_data_single):
     data = export_mutations(skempi_processed_data_single)
     generate_files(data)
