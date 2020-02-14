@@ -99,4 +99,27 @@ def make_consensus(uep_results, pydock_results, foldx_results):
                 consensus_results.setdefault(mutation, -0.5)
     return consensus_results
 
+def correlations(uep_results, pydock_results, foldx_results, beatmusic_results, prodigy_results):
+    correlation_data = {"UEP-pyDock": 0, "UEP-FoldX": 0, "pyDock-FoldX": 0, "UEP-BeAtMuSiC": 0, "UEP-PRODIGY": 0, "UEP-pyDock-FoldX": 0}
+    for mutation, uep_value in uep_results.items():
+        mutation = "{}_{}".format(mutation.split("_")[0], mutation.split("_")[-1])
+        if mutation in pydock_results and mutation in foldx_results and mutation in prodigy_results:
+            uep_value -= 1.01 # to compare it with the others, UEP ratio is at 1
+            pydock_value = pydock_results[mutation]
+            foldx_value = foldx_results[mutation]
+            #beatmusic_value = beatmusic_results[mutation]
+            prodigy_value = prodigy_results[mutation]
+            if (uep_value > 0 and pydock_value > 0) or (uep_value <= 0 and pydock_value <= 0):
+                correlation_data["UEP-pyDock"] += 1
+            if (uep_value > 0 and foldx_value > 0) or (uep_value <= 0 and foldx_value <= 0):
+                correlation_data["UEP-FoldX"] += 1
+            if (pydock_value > 0 and foldx_value > 0) or (pydock_value <= 0 and foldx_value <= 0):
+                correlation_data["pyDock-FoldX"] += 1
+            #if (uep_value > 0 and beatmusic_value > 0) or (uep_value <= 0 and beatmusic_value <= 0):
+            #    correlation_data["UEP-BeAtMuSiC"] += 1
+            if (uep_value > 0 and prodigy_value > 0) or (uep_value <= 0 and prodigy_value <= 0):
+                correlation_data["UEP-PRODIGY"] += 1
+            if (uep_value > 0 and pydock_value > 0 and foldx_value > 0) or (uep_value <= 0 and pydock_value <= 0 and foldx_value <= 0):
+                correlation_data["UEP-pyDock-FoldX"] += 1
+    print(correlation_data)
 

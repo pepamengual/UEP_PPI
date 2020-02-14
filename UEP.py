@@ -55,7 +55,6 @@ def main(cpus=27, skempi=False, scan=""):
         consensus = compute_statistics.make_consensus(skempi_uep_predictions, names_pydock, names_foldx)
         consensus_results = compute_statistics.mcc(consensus, skempi_processed_data_single, 0.0, "Consensus")
 
-
         ### - BEATMUSIC - ###      
         beatmusic_folder = "skempi/beatmusic/output/"
         interaction_data_beatmusic = make_models.run_beatmusic(beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original)
@@ -76,6 +75,9 @@ def main(cpus=27, skempi=False, scan=""):
         
         all_data = {**uep_results, **pydock_results, **foldx_results, **beatmusic_results, **prodigy_results, **mcsm_trained_results, **mcsm_untrained_results, **consensus_results}
         print(all_data)
+
+        ### - CORRELATIONS - ###
+        compute_statistics.correlations(skempi_uep_predictions, names_pydock, names_foldx, interaction_data_beatmusic, results_prodigy)
 
 if __name__ == "__main__":
     cpu, skempi, scan = parse_args()
