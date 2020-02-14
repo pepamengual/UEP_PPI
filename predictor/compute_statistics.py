@@ -35,13 +35,14 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
     NPV = round(TN/(FN + TN), 3)
     TPR = round(TP/(TP + FN), 3)
     FPR = round(TN/(FP + TN), 3)
-    MCC = round(((TP * TN) - (FP * FN)) / ((TP + FP)*(TP + FN)*(TN + FP)*(TN + FN))**0.5, 3)
+    MCC = round(((TP * TN) - (FP * FN)) / ((TP + FP)*(TP + FN)*(TN + FP)*(TN + FN))**0.5, 2)
 
     print("\tP\tN\tPPV/NPV")
     print("P\t{}\t{}\t{}".format(TP, FP, PPV))
     print("N\t{}\t{}\t{}".format(FN, TN, NPV))
     print("\tTPR\tFPR\tMCC")
     print("\t{}\t{}\t{}\n".format(TPR, FPR, MCC))
+    return {name: [TP, FP, MCC, FN, TN]}
 
 def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):
     uep_thresholds = np.arange(-2, 2, 0.05)
@@ -83,3 +84,19 @@ def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):
             mcc = MCC
             best_threshold = uep_threshold
     print("Best MCC: {}, Threshold: {}".format(mcc, round(best_threshold, 3)))
+
+def make_consensus(uep_results, pydock_results, foldx_results):
+    consensus_results = {}
+    for mutation, uep_value in uep_results.items():
+        mutation = "{}_{}".format(mutation.split("_")[0], mutation.split("_")[-1])
+        if mutation in pydock_results and mutation in foldx_results:
+            pydock_value = pydock_results[mutation]
+            foldx_value = foldx_results[mutation]
+            positive_count = len([i for i in [uep_value-1.01, pydock_value, foldx_value] if i > 0])
+            if positive_count >= 2:
+                consensus_results.setdefault(mutation, 2)
+            else:
+                consensus_results.setdefault(mutation, -0.5)
+    return consensus_results
+
+
