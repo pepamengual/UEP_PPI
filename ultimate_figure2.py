@@ -16,14 +16,14 @@ def create_figure(data):
     ax_right_9, ax_right_10 = fig.add_subplot(gs[4,6:10]), fig.add_subplot(gs[4,10:14])
 
     make_figure_left(ax_left, dataframe_data)
-    for i, axis in enumerate([ax_right_1, ax_right_2, ax_right_3, ax_right_4, ax_right_5, ax_right_6, ax_right_7, ax_right_8, ax_right_9]):
+    for i, axis in enumerate([ax_right_1, ax_right_2, ax_right_3, ax_right_4, ax_right_5, ax_right_6, ax_right_7, ax_right_8, ax_right_9, ax_right_10]):
         make_confusion_matrices(axis, i, data)
     
     #fig.subplots_adjust(wspace=0.2, hspace=0.2)
-    fig.set_size_inches((12, 5.5), forward=False)
-    #plt.savefig("performance_plot_ultimate.png", dpi=500, bbox_inches="tight")
+    fig.set_size_inches((12, 9.3), forward=False)
+    plt.savefig("performance_plot_ultimate_large.png", dpi=500, bbox_inches="tight")
     
-    plt.show()
+    #plt.show()
 
 def make_confusion_matrices(axis, i, data):
     font_bold_title = {"fontsize": 12, "weight": "bold"}
@@ -63,11 +63,11 @@ def make_figure_left(ax_left, data):
     ax_left.plot(data, linestyle="-", linewidth=7, marker="o", markersize=12, markeredgecolor="black", markeredgewidth=1.5)
     #Shrink bottom axis height
     box = ax_left.get_position()
-    ax_left.set_position([box.x0, box.y0 + box.height * 0.28, box.width, box.height * 0.79]) #0.26, 76
+    ax_left.set_position([box.x0, box.y0 + box.height * 0.26, box.width, box.height * 0.77]) #0.26, 76
     #Formatting ticks
     plt.sca(ax_left)
-    plt.xticks([0,1,2,3,4,5,6,7], data.index, rotation=90, color="black", weight="bold")
-    ax_left.legend(ax_left.get_lines(), ["TPR", "TNR", "PPV", "NPV"], loc='upper center', bbox_to_anchor=(0.5, -0.32), ncol=4, fancybox=True, shadow=False, prop=dict(weight='bold'))
+    plt.xticks([0,1,2,3,4,5,6,7,8,9], data.index, rotation=90, color="black", weight="bold")
+    ax_left.legend(ax_left.get_lines(), ["TPR", "TNR", "PPV", "NPV"], loc='upper center', bbox_to_anchor=(0.5, -0.26), ncol=4, fancybox=True, shadow=False, prop=dict(weight='bold'))
     plt.ylabel("Performance", color="black", fontsize=11, weight="bold")
     ax_left.yaxis.set_label_coords(-0.1,0.5)
 
@@ -84,13 +84,14 @@ def get_rates(data):
     return data_df
 
 def main():
-    data = {'Strict\nconsensus': [97, 117, 0.42, 34, 312, "2h"], #changes here
-            'Light\nConsensus': [212, 343, 0.31, 81, 607, "2h"],
-            'UEP': [209, 416, 0.23, 85, 536, "15s"], 
-            'pyDock': [204, 403, 0.23, 89, 547, "2h"], 
+    data = {'Unanimous': [97, 117, 0.42, 34, 312, "2h"], #changes here
+            'Consensus': [212, 343, 0.31, 81, 607, "2h"],
+            'UEP\nmCSM untrained': [99, 147, 0.25, 35, 165, "5s"],
+            'UEP': [209, 416, 0.23, 85, 536, "15s"],
+            'pyDock': [204, 403, 0.23, 89, 547, "2h"],
             'PRODIGY': [157, 394, 0.11, 131, 550, "2h"],
-            'FoldX': [156, 276, 0.22, 137, 674, "2h"], 
-            'BeAtMuSiC': [82, 139, 0.15, 211, 810, "Web"], 
+            'FoldX': [156, 276, 0.22, 137, 674, "2h"],
+            'BeAtMuSiC': [82, 139, 0.15, 211, 810, "Web"],
             'mCSM\nuntrained': [16, 28, 0.05, 118, 284, "Web"],
             'mCSM\ntrained': [84, 20, 0.59, 75, 619, "Web"]}
     create_figure(data)
