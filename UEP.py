@@ -23,7 +23,7 @@ def main(cpus=27, skempi=False, scan=""):
     if skempi and scan == "":
         ### --- FILTERING SKEMPI --- ###
         training_data = load(model_trained, compression="lzma", set_default_extension=False)
-        skempi_processed_data_single, skempi_processed_data_multiple, skempi_processed_data_single_no_renamed, skempi_raw_renamed_original = read_skempi.process_skempi_data(skempi_path)
+        skempi_processed_data_single, skempi_processed_data_multiple, skempi_processed_data_single_no_renamed, skempi_raw_renamed_original, map_beatmusic = read_skempi.process_skempi_data(skempi_path)
         data = make_models.export_mutations(skempi_processed_data_single)
         data_no_renamed = make_models.export_mutations(skempi_processed_data_single_no_renamed)
         
@@ -65,8 +65,9 @@ def main(cpus=27, skempi=False, scan=""):
 
         ### - BEATMUSIC - ###      
         beatmusic_folder = "skempi/beatmusic/output/"
-        interaction_data_beatmusic = make_models.run_beatmusic(beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original)
-        beatmusic_results = compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BeAtMuSiC")
+        interaction_data_beatmusic = make_models.run_beatmusic(beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original, map_beatmusic)
+        beatmusic_results = compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single, 0.0, "BeAtMuSiC")
+        #beatmusic_results = compute_statistics.mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed, 0.0, "BeAtMuSiC")
         #compute_statistics.best_mcc(interaction_data_beatmusic, skempi_processed_data_single_no_renamed)
         
         ### -- PRODIGY -- ###
@@ -90,12 +91,9 @@ def main(cpus=27, skempi=False, scan=""):
         all_data = {**uep_results, **pydock_results, **foldx_results, **beatmusic_results, **prodigy_results, **mcsm_trained_results, **mcsm_untrained_results, **consensus_results}
         print(all_data)
 
-        ### - CORRELATIONS - ###
-        compute_statistics.correlations(skempi_uep_predictions, names_pydock, names_foldx, interaction_data_beatmusic, results_prodigy)
-        
         ### -- ALL AGREE --- ###
-        compute_statistics.all_agree_matrix(skempi_uep_predictions, names_pydock, names_foldx, results_prodigy, skempi_processed_data_single)
-
+        compute_statistics.all_agree_matrix(skempi_uep_predictions, names_pydock, names_foldx, results_prodigy, interaction_data_beatmusic, skempi_processed_data_single)
+        
         consensus_four = compute_statistics.make_consensus_four(skempi_uep_predictions, names_pydock, names_foldx, results_prodigy, 1.01)
         consensus_results_four = compute_statistics.mcc(consensus_four, skempi_processed_data_single, 0.0, "Consensus")
 

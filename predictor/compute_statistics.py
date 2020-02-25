@@ -152,8 +152,8 @@ def sub_all_agree(obligatory_predictor, other_predictors, experimental, predicti
     print("\tTPR\tFPR\tMCC\tcounts")
     print("\t{}\t{}\t{}\t{}\n".format(TPR, FPR, MCC, TP+TN+FP+FN))
 
-def all_agree_matrix(uep_results, pydock_results, foldx_results, prodigy_results, experimental_skempi_ratios):
-    predictions = {"UEP": uep_results, "pyDock": pydock_results, "FoldX": foldx_results, "PRODIGY": prodigy_results}
+def all_agree_matrix(uep_results, pydock_results, foldx_results, prodigy_results, beatmusic_results, experimental_skempi_ratios):
+    predictions = {"UEP": uep_results, "pyDock": pydock_results, "FoldX": foldx_results, "PRODIGY": prodigy_results, "BeAtMuSiC": beatmusic_results}
     experimental = {"improving": set(), "decreasing": set()}
     for candidate, score in experimental_skempi_ratios.items():
         candidate = "{}_{}".format(candidate.split("_")[0], candidate.split("_")[-1])
@@ -185,72 +185,7 @@ def all_agree_matrix(uep_results, pydock_results, foldx_results, prodigy_results
     sub_all_agree("UEP", ["pyDock", "PRODIGY"], experimental, predictions_classified)
     sub_all_agree("UEP", ["pyDock", "FoldX"], experimental, predictions_classified)
     sub_all_agree("UEP", ["pyDock", "FoldX", "PRODIGY"], experimental, predictions_classified)
-    
-def correlations(uep_results, pydock_results, foldx_results, beatmusic_results, prodigy_results):
-    correlation_data = {"UEP-pyDock": {"+": 0, "-": 0, "diff": 0}, "UEP-FoldX": {"+": 0, "-": 0, "diff": 0}, "pyDock-FoldX": {"+": 0, "-": 0, "diff": 0}, "UEP-BeAtMuSiC": {"+": 0, "-": 0, "diff": 0}, "UEP-PRODIGY": {"+": 0, "-": 0, "diff": 0}, "UEP-PYDOCK-FOLDX": {"+": 0, "-": 0, "diff": 0}, "UEP-PRODIGY-FOLDX": {"+": 0, "-": 0, "diff": 0}, "PYDOCK-PRODIGY-FOLDX": {"+": 0, "-": 0, "diff": 0}}
-    for mutation, uep_value in uep_results.items():
-        mutation = "{}_{}".format(mutation.split("_")[0], mutation.split("_")[-1])
-        if mutation in pydock_results and mutation in foldx_results and mutation in prodigy_results: # and mutation in beatmusic_results:
-            uep_value -= 1.01 # to compare it with the others, UEP ratio is at 1
-            pydock_value = pydock_results[mutation]
-            foldx_value = foldx_results[mutation]
-            #beatmusic_value = beatmusic_results[mutation]
-            prodigy_value = prodigy_results[mutation]
-            if (uep_value > 0 and pydock_value > 0):
-                correlation_data["UEP-pyDock"]["+"] += 1
-            elif (uep_value <= 0 and pydock_value <= 0):
-                correlation_data["UEP-pyDock"]["-"] += 1
-            else:
-                correlation_data["UEP-pyDock"]["diff"] += 1
-
-            if (uep_value > 0 and foldx_value > 0):
-                correlation_data["UEP-FoldX"]["+"] += 1
-            elif (uep_value <= 0 and foldx_value <= 0):
-                correlation_data["UEP-FoldX"]["-"] += 1
-            else:
-                correlation_data["UEP-FoldX"]["diff"] += 1
-
-            if (pydock_value > 0 and foldx_value > 0):
-                correlation_data["pyDock-FoldX"]["+"] += 1
-            elif (pydock_value <= 0 and foldx_value <= 0):
-                correlation_data["pyDock-FoldX"]["-"] += 1
-            else:
-                correlation_data["pyDock-FoldX"]["diff"] += 1
-            
-           #if (uep_value > 0 and beatmusic_value > 0):
-           #    correlation_data["UEP-BeAtMuSiC"]["+"] += 1
-           #elif (uep_value <= 0 and beatmusic_value <= 0):
-           #    correlation_data["UEP-BeAtMuSiC"]["-"] += 1
-           #else:
-           #    correlation_data["UEP-BeAtMuSiC"]["diff"] += 1
-            
-            if (uep_value > 0 and prodigy_value > 0):
-                correlation_data["UEP-PRODIGY"]["+"] += 1
-            elif(uep_value <= 0 and prodigy_value <= 0):
-                correlation_data["UEP-PRODIGY"]["-"] += 1
-            else:
-                correlation_data["UEP-PRODIGY"]["diff"] += 1
-
-            if (uep_value > 0 and pydock_value > 0 and foldx_value > 0):
-                correlation_data["UEP-PYDOCK-FOLDX"]["+"] += 1
-            elif(uep_value <= 0 and pydock_value <= 0 and foldx_value <= 0):
-                correlation_data["UEP-PYDOCK-FOLDX"]["-"] += 1
-            else:
-                correlation_data["UEP-PYDOCK-FOLDX"]["diff"] += 1
-            
-            if (uep_value > 0 and prodigy_value > 0 and foldx_value > 0):
-                correlation_data["UEP-PRODIGY-FOLDX"]["+"] += 1
-            elif(uep_value <= 0 and prodigy_value <= 0 and foldx_value <= 0):
-                correlation_data["UEP-PRODIGY-FOLDX"]["-"] += 1
-            else:
-                correlation_data["UEP-PRODIGY-FOLDX"]["diff"] += 1
-
-            if (pydock_value > 0 and prodigy_value > 0 and foldx_value > 0):
-                correlation_data["PYDOCK-PRODIGY-FOLDX"]["+"] += 1
-            elif(pydock_value <= 0 and prodigy_value <= 0 and foldx_value <= 0):
-                correlation_data["PYDOCK-PRODIGY-FOLDX"]["-"] += 1
-            else:
-                correlation_data["PYDOCK-PRODIGY-FOLDX"]["diff"] += 1
-    print("\n")
-    for k, v in correlation_data.items():
-        print(k, v)
+    sub_all_agree("UEP", ["BeAtMuSiC"], experimental, predictions_classified)
+    sub_all_agree("PRODIGY", ["BeAtMuSiC"], experimental, predictions_classified)
+    sub_all_agree("FoldX", ["BeAtMuSiC"], experimental, predictions_classified)
+    sub_all_agree("pyDock", ["BeAtMuSiC"], experimental, predictions_classified)

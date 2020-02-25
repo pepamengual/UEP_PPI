@@ -175,7 +175,7 @@ def get_foldx_mutation_names_for_pydock(ddG_data_pydock):
                     names_pydock.setdefault("{}_{}".format(pdb, mutation), value)
     return names_pydock
 
-def run_beatmusic(folder, data_uep, skempi_raw_renamed_original): #beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original
+def run_beatmusic(folder, data_uep, skempi_raw_renamed_original, map_beatmusic): #beatmusic_folder, skempi_uep_predictions, skempi_raw_renamed_original
     #folder = "skempi/beatmusic/output/"
     data_to_test = list(data_uep.keys())
     data_to_test = ["{}_{}".format(i.split("_")[0], i.split("_")[-1]) for i in data_to_test]
@@ -191,6 +191,7 @@ def run_beatmusic(folder, data_uep, skempi_raw_renamed_original): #beatmusic_fol
                     name = "{}{}{}{}".format(original, chain, resnum, mutation)
                     entry = "{}_{}".format(pdb, name)
                     if len(data_to_test.intersection(set([entry]))) == 1:
+                        entry = map_beatmusic[entry] #added this, remove if doesn't work
                         data.setdefault(entry, ddG)
     return data
 
