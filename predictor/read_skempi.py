@@ -21,9 +21,6 @@ def read_file(input_file):
                     new_mutations = [i[-1] for i in id_mutation.split(",")]
                     if not "A" in new_mutations:
                         skempi_raw_data_multiple.setdefault(id_mutation, []).append(aff_ratio)
-    for k, v in sorted(map_beatmusic.items()):
-        print(k, v)
-
     return skempi_raw_data_single, skempi_raw_data_multiple, skempi_raw_data_single_no_renamed, skempi_raw_renamed_original, map_beatmusic
 
 def filter_redundancy(dictionary):

@@ -1,5 +1,5 @@
 import argparse
-from predictor import read_skempi, scoring_all, compute_statistics, make_models, scoring_single_contact
+from predictor import read_skempi, scoring_all, compute_statistics, make_models, scoring_single_contact, scoring_without_normalization
 from compress_pickle import load
 
 HELP = " \
@@ -17,7 +17,7 @@ def parse_args():
     args = parser.parse_args()
     return args.cpu, args.skempi, args.scan
 
-def main(cpus=27, skempi=False, scan=""):
+def main(cpus=1, skempi=False, scan=""):
     skempi_path = "skempi/skempi_v2.csv"
     model_trained = "trained_model/UEP_trained_model_4"
     if skempi and scan == "":
@@ -31,8 +31,10 @@ def main(cpus=27, skempi=False, scan=""):
         #make_models.run_multiprocessing_models(skempi_uep_predictions)
         
         ### ---- UEP ---- ###
-        skempi_uep_predictions = scoring_all.run_multiprocessing(skempi_processed_data_single, cpus, training_data)
+        print("start")
+        skempi_uep_predictions = scoring_without_normalization.run_multiprocessing(skempi_processed_data_single, 4, training_data)
         uep_results = compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP")
+        print("finish")
         #compute_statistics.best_mcc(skempi_uep_predictions, skempi_processed_data_single)
         
         training_data_single = load("trained_model/single_contact_matrix", compression="lzma", set_default_extension=False)

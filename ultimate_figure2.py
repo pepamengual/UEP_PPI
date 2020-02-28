@@ -84,16 +84,16 @@ def get_rates(data):
     return data_df
 
 def main():
-    data = {'Unanimous': [97, 117, 0.42, 34, 312, "2h"], #changes here
-            'Consensus': [212, 343, 0.31, 81, 607, "2h"],
-            'UEP\nmCSM untrained': [99, 147, 0.25, 35, 165, "5s"],
-            'UEP': [209, 416, 0.23, 85, 536, "15s"],
-            'pyDock': [204, 403, 0.23, 89, 547, "2h"],
-            'PRODIGY': [157, 394, 0.11, 131, 550, "2h"],
-            'FoldX': [156, 276, 0.22, 137, 674, "2h"],
-            'BeAtMuSiC': [82, 139, 0.15, 211, 810, "Web"],
-            'mCSM\nuntrained': [16, 28, 0.05, 118, 284, "Web"],
-            'mCSM\ntrained': [84, 20, 0.59, 75, 619, "Web"]}
+    data = {'Unanimous': [94, 107, 0.44, 28, 303, "190\'"], #changes here
+            'Consensus': [204, 324, 0.30, 89, 626, "190\'"],
+            'UEP\nmCSM untrained': [98, 142, 0.26, 38, 186, "15\""],
+            'UEP': [207, 408, 0.23, 94, 571, "30\""],
+            'pyDock': [204, 403, 0.23, 89, 547, "175\'"],
+            'PRODIGY': [157, 394, 0.11, 131, 550, "175\'"],
+            'FoldX': [156, 276, 0.22, 137, 674, "175\'"],
+            'BeAtMuSiC': [83, 143, 0.15, 214, 832, "Web"],
+            'mCSM\nuntrained': [16, 30, 0.04, 120, 298, "Web"],
+            'mCSM\ntrained': [86, 22, 0.58, 78, 628, "Web"]}
     create_figure(data)
 
 main()
