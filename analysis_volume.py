@@ -3,9 +3,10 @@ from compress_pickle import load
 
 def classify_mutations(data_dictionary):
     data = volume_classifier.compute_volume_difference(data_dictionary)
-    gain = {**data["Large_gain"], **data["Medium_gain"]}
-    loss = {**data["Large_loss"], **data["Medium_loss"]}
-    neutral = {**data["Neutral"], **data["Small_gain"], **data["Small_loss"]}
+    #data = volume_classifier.compute_hydrophobicity_difference(data_dictionary)
+    gain = data["Gain"]
+    loss = data["Loss"]
+    neutral = data["Neutral"]
     return gain, loss, neutral
 
 def score_mutations(gain, neutral, loss, threshold, name, skempi_processed_data_single):
@@ -22,11 +23,22 @@ def main():
     skempi_uep_predictions = scoring_without_normalization.run_multiprocessing(skempi_processed_data_single, 27, training_data)
     uep_results = compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP")
     
+    ### TMP PYDOCK ###
+    data = make_models.export_mutations(skempi_processed_data_single)
+    interaction_data_pydock = make_models.get_interaction_data_pydock(data)
+    ddG_data_pydock = make_models.get_ddG_pydock(interaction_data_pydock)
+    names_pydock = make_models.get_foldx_mutation_names_for_pydock(ddG_data_pydock)
+
+
     mutation_list = {}
+    uep_data = {}
     for mutation, predicted_value in skempi_uep_predictions.items():
         if mutation in skempi_processed_data_single:
             mutation = "{}_{}".format(mutation.split("_")[0], mutation.split("_")[-1])
-            mutation_list.setdefault(mutation, predicted_value)
+            if mutation in names_pydock:
+                mutation_list.setdefault(mutation, predicted_value)
+                uep_data.setdefault(mutation, predicted_value)
+    uep_results = compute_statistics.mcc(uep_data, skempi_processed_data_single, 1.01, "UEP_this")
     gain, loss, neutral = classify_mutations(mutation_list)
     score_mutations(gain, neutral, loss, 1.01, "UEP", skempi_processed_data_single)
 

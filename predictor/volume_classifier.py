@@ -10,30 +10,34 @@ def compute_volume_difference(dictionary):
         wild_type = mutation.split("_")[1][0]
         mutant = mutation.split("_")[1][-1]
         volume_diff = round(volume[mutant] - volume[wild_type], 3)
-
-        if abs(volume_diff) < 0.05:
+        
+        if volume_diff > -0.10 and volume_diff < 0.10:
             volume_data.setdefault("Neutral", {}).setdefault(mutation, prediction)
-        
-        if volume_diff <= -0.05 and volume_diff > -0.10:
-            volume_data.setdefault("Small_loss", {}).setdefault(mutation, prediction)
-        if volume_diff >= 0.05 and volume_diff < 0.10:
-            volume_data.setdefault("Small_gain", {}).setdefault(mutation, prediction)
-        
-        if volume_diff <= -0.10 and volume_diff > -0.20:
-            volume_data.setdefault("Medium_loss", {}).setdefault(mutation, prediction)
-        if volume_diff >= 0.10 and volume_diff < 0.20:
-            volume_data.setdefault("Medium_gain", {}).setdefault(mutation, prediction)
-        
-        if volume_diff <= -0.20:
-            volume_data.setdefault("Large_loss", {}).setdefault(mutation, prediction)
-        if volume_diff >= 0.20:
-            volume_data.setdefault("Large_gain", {}).setdefault(mutation, prediction)
-    
-    neutral = len(volume_data["Neutral"])
-    large_loss, medium_loss, small_loss = len(volume_data["Large_loss"]), len(volume_data["Medium_loss"]), len(volume_data["Small_loss"])
-    large_gain, medium_gain, small_gain = len(volume_data["Large_gain"]), len(volume_data["Medium_gain"]), len(volume_data["Small_gain"])
-    total = neutral + large_loss + medium_loss + small_loss + neutral + small_gain + medium_gain + large_gain
-
-    print(large_loss, medium_loss, small_loss, neutral, small_gain, medium_gain, large_gain)
-    print(int(100*large_loss/total), int(100*medium_loss/total), int(100*small_loss/total), int(100*neutral/total), int(100*small_gain/total), int(100*medium_gain/total), int(100*large_gain/total))
+        if volume_diff <= -0.10:
+            volume_data.setdefault("Loss", {}).setdefault(mutation, prediction)
+        if volume_diff >= 0.10:
+            volume_data.setdefault("Gain", {}).setdefault(mutation, prediction)
     return volume_data
+
+
+def compute_hydrophobicity_difference(dictionary):
+    hydrophobicity = {"G": 0.48, "A": 0.62, "S": -0.18, "C": 0.29,
+                      "T": -0.05, "D": -0.90, "P": 0.12, "N": -0.78,
+                      "V": 1.08, "E": -0.74, "Q": -0.85, "I": 1.38,
+                      "H": -0.40, "L": 1.06, "M": 0.64, "K": -1.50,
+                      "F": 1.19, "R": -2.53, "Y": 0.26, "W": 0.81}
+
+    hydrophobicity_data = {}
+    for mutation, prediction in dictionary.items():
+        wild_type = mutation.split("_")[1][0]
+        mutant = mutation.split("_")[1][-1]
+        hydrophobicity_diff = round(hydrophobicity[mutant] - hydrophobicity[wild_type], 3)
+
+        if hydrophobicity_diff > -0.30 and hydrophobicity_diff < 0.30:
+            hydrophobicity_data.setdefault("Neutral", {}).setdefault(mutation, prediction)
+        if hydrophobicity_diff <= -0.30:
+            hydrophobicity_data.setdefault("Loss", {}).setdefault(mutation, prediction)
+        if hydrophobicity_diff >= 0.30:
+            hydrophobicity_data.setdefault("Gain", {}).setdefault(mutation, prediction)
+
+    return hydrophobicity_data

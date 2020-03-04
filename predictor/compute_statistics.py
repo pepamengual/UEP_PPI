@@ -32,17 +32,17 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
     FN = confusion_matrix["FN"]
     TN = confusion_matrix["TN"]
     
-    PPV = round(TP/(TP + FP), 3)
-    NPV = round(TN/(FN + TN), 3)
-    TPR = round(TP/(TP + FN), 3)
-    FPR = round(TN/(FP + TN), 3)
+    PPV = round(TP/(TP + FP), 2)
+    NPV = round(TN/(FN + TN), 2)
+    TPR = round(TP/(TP + FN), 2)
+    FPR = round(TN/(FP + TN), 2)
     MCC = round(((TP * TN) - (FP * FN)) / ((TP + FP)*(TP + FN)*(TN + FP)*(TN + FN))**0.5, 2)
 
     print("\tP\tN\tPPV/NPV")
     print("P\t{}\t{}\t{}".format(TP, FP, PPV))
     print("N\t{}\t{}\t{}".format(FN, TN, NPV))
-    print("\tTPR\tFPR\tMCC")
-    print("\t{}\t{}\t{}\n".format(TPR, FPR, MCC))
+    print("\tTPR\tFPR\tMCC\tcounts")
+    print("\t{}\t{}\t{}\t{}\n".format(TPR, FPR, MCC, TP+TN+FP+FN))
     return {name: [TP, FP, MCC, FN, TN]}
 
 def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):

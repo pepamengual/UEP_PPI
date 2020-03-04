@@ -17,7 +17,7 @@ def parse_args():
     args = parser.parse_args()
     return args.cpu, args.skempi, args.scan
 
-def main(cpus=1, skempi=False, scan=""):
+def main(cpus=27, skempi=False, scan=""):
     skempi_path = "skempi/skempi_v2.csv"
     model_trained = "trained_model/UEP_trained_model_4"
     if skempi and scan == "":
@@ -33,6 +33,7 @@ def main(cpus=1, skempi=False, scan=""):
         ### ---- UEP ---- ###
         print("start")
         skempi_uep_predictions = scoring_without_normalization.run_multiprocessing(skempi_processed_data_single, 4, training_data)
+        print(skempi_uep_predictions)
         uep_results = compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP")
         print("finish")
         #compute_statistics.best_mcc(skempi_uep_predictions, skempi_processed_data_single)
@@ -52,6 +53,23 @@ def main(cpus=1, skempi=False, scan=""):
         names_pydock = make_models.get_foldx_mutation_names_for_pydock(ddG_data_pydock)
         pydock_results = compute_statistics.mcc(names_pydock, skempi_processed_data_single, 0.0, "pyDock")
         #compute_statistics.best_mcc(names_pydock, skempi_processed_data_single)
+        data_sec = skempi_uep_predictions
+        
+        skempi_uep_predictions = {}
+        for m, value in data_sec.items():
+            mutation = "{}_{}".format(m.split("_")[0], m.split("_")[-1])
+            if mutation in names_pydock:
+                skempi_uep_predictions.setdefault(mutation, value)
+        uep_results = compute_statistics.mcc(skempi_uep_predictions, skempi_processed_data_single, 1.01, "UEP_evaluate")
+        
+        #data single here
+        data_sec = single
+        single = {}
+        for m, value in data_sec.items():
+            mutation = "{}_{}".format(m.split("_")[0], m.split("_")[-1])
+            if mutation in names_pydock:
+                single.setdefault(mutation, value)
+        uep_results_2 = compute_statistics.mcc(single, skempi_processed_data_single, 1.01, "UEP_evaluate_single")
         
         ### --- FOLDX --- ###
         #make_models.run_multiprocessing_foldx(data)

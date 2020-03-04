@@ -21,7 +21,7 @@ def create_figure(data):
     
     #fig.subplots_adjust(wspace=0.2, hspace=0.2)
     fig.set_size_inches((12, 9.3), forward=False)
-    plt.savefig("performance_plot_ultimate_large.png", dpi=500, bbox_inches="tight")
+    plt.savefig("figure2.png", dpi=500, bbox_inches="tight")
     
     #plt.show()
 
@@ -84,16 +84,16 @@ def get_rates(data):
     return data_df
 
 def main():
-    data = {'Unanimous': [94, 107, 0.44, 28, 303, "190\'"], #changes here
-            'Consensus': [204, 324, 0.30, 89, 626, "190\'"],
-            'UEP\nmCSM untrained': [98, 142, 0.26, 38, 186, "15\""],
-            'UEP': [207, 408, 0.23, 94, 571, "30\""],
-            'pyDock': [204, 403, 0.23, 89, 547, "175\'"],
-            'PRODIGY': [157, 394, 0.11, 131, 550, "175\'"],
-            'FoldX': [156, 276, 0.22, 137, 674, "175\'"],
-            'BeAtMuSiC': [83, 143, 0.15, 214, 832, "Web"],
-            'mCSM\nuntrained': [16, 30, 0.04, 120, 298, "Web"],
-            'mCSM\ntrained': [86, 22, 0.58, 78, 628, "Web"]}
+    data = {'Unanimous': [94, 107, 0.44, 28, 303, "185\'"], #changes here
+            'Consensus': [204, 324, 0.30, 89, 626, "185\'"],
+            'UEP\nmCSM untrained': [98, 139, 0.26, 36, 172, "15\""],
+            'UEP': [203, 398, 0.23, 90, 552, "30\""],
+            'pyDock': [204, 403, 0.23, 89, 547, "170\'"],
+            'PRODIGY': [157, 394, 0.11, 131, 550, "170\'"],
+            'FoldX': [156, 276, 0.22, 137, 674, "170\'"],
+            'BeAtMuSiC': [82, 139, 0.15, 211, 809, "Web"],
+            'mCSM\nuntrained': [16, 28, 0.05, 118, 283, "Web"],
+            'mCSM\ntrained': [84, 20, 0.59, 75, 619, "Web"]}
     create_figure(data)
 
 main()
