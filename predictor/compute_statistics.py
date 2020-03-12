@@ -7,6 +7,7 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
     confusion_matrix = {"TP": 0, "FP": 0, "FN": 0, "TN": 0}
     
     experimental_skempi_ratios_shorter = {}
+    new_dict_only_screening = {}
     for candidate, score in experimental_skempi_ratios.items():
         #if len(candidate.split("_")[1]) > 1 and len(candidate.split("_")[2]) > 1:
         #    continue
@@ -20,8 +21,10 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
         
             if uep_score > threshold and experimental_ratio > experimental_threshold:
                 confusion_matrix["TP"] += 1
+                new_dict_only_screening.setdefault(candidate, uep_score)
             if uep_score > threshold and experimental_ratio <= - experimental_threshold:
                 confusion_matrix["FP"] += 1
+                new_dict_only_screening.setdefault(candidate, uep_score)
             if uep_score <= threshold and experimental_ratio > experimental_threshold:
                 confusion_matrix["FN"] += 1
             if uep_score <= threshold and experimental_ratio <= - experimental_threshold:
@@ -43,7 +46,7 @@ def mcc(skempi_uep_predictions, experimental_skempi_ratios, threshold, name):
     print("N\t{}\t{}\t{}".format(FN, TN, NPV))
     print("\tTPR\tFPR\tMCC\tcounts")
     print("\t{}\t{}\t{}\t{}\n".format(TPR, FPR, MCC, TP+TN+FP+FN))
-    return {name: [TP, FP, MCC, FN, TN]}
+    return {name: [TP, FP, MCC, FN, TN]}, new_dict_only_screening
 
 def best_mcc(skempi_uep_predictions, experimental_skempi_ratios):
     uep_thresholds = np.arange(-2, 2, 0.05)
@@ -99,6 +102,20 @@ def make_consensus(uep_results, pydock_results, foldx_results, value):
             else:
                 consensus_results.setdefault(mutation, -0.5)
     return consensus_results
+
+def make_unanimous(uep_results, pydock_results, foldx_results, value):
+    unanimous_results = {}
+    for mutation, uep_value in uep_results.items():
+        mutation = "{}_{}".format(mutation.split("_")[0], mutation.split("_")[-1])
+        if mutation in pydock_results and mutation in foldx_results:
+            pydock_value = pydock_results[mutation]
+            foldx_value = foldx_results[mutation]
+            positive_count = len([i for i in [uep_value-value, pydock_value, foldx_value] if i > 0])
+            if positive_count == 3:
+                unanimous_results.setdefault(mutation, 2)
+            if positive_count == 0:
+                unanimous_results.setdefault(mutation, -0.5)
+    return unanimous_results
 
 def make_consensus_four(uep_results, pydock_results, foldx_results, prodigy_results, value):
     consensus_results = {}
